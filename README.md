@@ -1,14 +1,19 @@
 # 江小豚 · 武汉数命 SPU 城市 AI 接待员
 
-> GitHub 提供源码，完整在线体验需部署 Node 后端；GitHub Pages 不能运行本项目的 AI 接口。
+> 下载后在自己的电脑运行，无需注册托管平台或绑定银行卡。
 >
-> **生产环境默认关闭在线 AI。密钥只放服务器私密环境变量，不能写进源码、网页或仓库。**
+> **仓库不包含作者的 AI 密钥。** 不配置密钥也能使用页面与资料直答；在线 AI 需要使用者自行配置自己的密钥。
 >
-> [部署说明与额度保护](docs/DEPLOYMENT.md) · [在 Render 创建部署](https://render.com/deploy?repo=https://github.com/czar1030/jiangxiaotun-spu)
+> [下载项目 ZIP](https://github.com/czar1030/jiangxiaotun-spu/archive/refs/heads/main.zip) · [本地启动与 AI 配置说明](docs/LOCAL-SETUP.md)
 
 ## 快速运行
 
-安装 Node.js 20 或以上，在项目目录执行 `npm start`，访问 http://127.0.0.1:3210 。无需密钥即可体验资料直答和页面功能。收藏和对话分别保存在每位访问者自己的浏览器。
+1. 安装 [Node.js LTS](https://nodejs.org/zh-cn/download)，推荐 22 或更新的受支持 LTS 版本（项目最低要求 20）。
+2. 下载上方 ZIP 并完整解压。
+3. Windows 双击解压目录中的 **启动江小豚.cmd**；macOS / Linux 在项目目录运行 `npm start`。
+4. 浏览器访问 **http://127.0.0.1:3210**。
+
+基础运行无需安装 npm 依赖。不要直接双击 `public/index.html`，应由本地 Node 服务打开。收藏和对话分别保存在每位访问者自己的浏览器。在线 AI 和临时回答的自然语音配置见 [本地使用说明](docs/LOCAL-SETUP.md)。
 
 面向 SAIG 线上赛的可运行网页。使用五份原始材料，支持武汉介绍、社区介绍、旅游规划、SPU 与 SAIG 赛事咨询。现有角色为按用户指定方向重新绘制的江小豚「楚风灵豚」矢量版。
 
@@ -30,7 +35,7 @@
 
 画卷中的四步引导连接城市发现、旅行、社区与 SAIG：可以把收藏的地方带进旅行，再写下自己的接待员特色创意并带入赛事介绍。收藏仅存于当前浏览器；参赛建议始终保留赛事规定的四项功能。
 
-当前电脑已安装 Node.js 20，不需要安装 npm 依赖。
+首次使用请先安装 Node.js；基础网页运行不需要安装 npm 依赖。
 
 1. 双击本目录的 **启动江小豚.cmd**。
 2. 浏览器打开 **http://127.0.0.1:3210**。
