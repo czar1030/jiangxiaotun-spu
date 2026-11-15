@@ -1,0 +1,22 @@
+{
+  "character": "DeepSeek 大肥鱼（铁盆造型）",
+  "source": "User-supplied attachment cb088a51-5355-4d39-9c77-21852c4ff36c",
+  "original": "output/community-basin/reference.png",
+  "originalSize": [
+    223,
+    281
+  ],
+  "crop": [
+    2,
+    21,
+    215,
+    278
+  ],
+  "assetSize": [
+    213,
+    257
+  ],
+  "processing": "Hand-refined trimap, local GrabCut segmentation, hair-gap cleanup, subpixel alpha and edge colour decontamination. Original artwork retained; no generation or upscaling.",
+  "sourceSha256": "ea9200146d0d92463edb3a0b29ceb1e0a1df7b76ee51b1ac94c0f3daaa9dfdb7",
+  "sha256": "dc41b4c2a86cb361e74ba080628d411a6ef3349f5f5a5726188fff3e230de8aa"
+}

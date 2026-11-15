@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 104" fill="none">
+  <defs>
+    <linearGradient id="river" x1="12" y1="0" x2="505" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#608478" stop-opacity="0"/><stop offset=".24" stop-color="#608478" stop-opacity=".48"/><stop offset=".7" stop-color="#608478" stop-opacity=".65"/><stop offset="1" stop-color="#608478" stop-opacity="0"/></linearGradient>
+    <linearGradient id="wing" x1="252" y1="16" x2="355" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#a4b7a0" stop-opacity=".08"/><stop offset=".6" stop-color="#638c7c" stop-opacity=".16"/><stop offset="1" stop-color="#638c7c" stop-opacity=".04"/></linearGradient>
+    <linearGradient id="haze" x1="45" y1="60" x2="218" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#91a899" stop-opacity="0"/><stop offset=".5" stop-color="#91a899" stop-opacity=".15"/><stop offset="1" stop-color="#91a899" stop-opacity="0"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#c3ad72" stop-opacity=".16"/><stop offset="1" stop-color="#c3ad72" stop-opacity=".03"/></radialGradient>
+  </defs>
+  <!-- The open sky separates the distant tower from the ascending crane. -->
+  <circle cx="351" cy="34" r="23" fill="url(#sun)"/>
+  <path d="M336 17A23 23 0 0 1 373 34" stroke="#b09a64" stroke-opacity=".43" stroke-width=".65"/>
+  <path d="M32 73C63 70 77 55 96 59C112 61 123 53 140 59C166 69 181 56 215 66L226 77H32Z" fill="url(#haze)"/>
+  <g stroke="#668577" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M86 75C104 72 128 72 147 75M93 71H141M98 68H137" stroke-opacity=".36" stroke-width=".8"/>
+    <g stroke-opacity=".57" stroke-width=".9">
+      <path d="M99 66V58M135 66V58M103 55V48M131 55V48M108 45V38M126 45V38M112 35V30M122 35V30"/>
+      <path d="M89 54C98 57 107 54 117 51C128 54 137 57 145 54C142 59 132 61 117 59C103 61 93 59 89 54Z"/>
+      <path d="M95 44C103 47 110 44 117 41C125 44 132 47 139 44C136 49 127 50 117 48C106 50 98 49 95 44Z"/>
+      <path d="M102 34C108 36 113 32 117 29C121 32 127 36 133 34C131 39 124 40 117 38C110 40 104 39 102 34Z"/>
+      <path d="M108 26Q114 25 117 21Q120 25 126 26Q117 29 108 26ZM117 21V17M97 67H138M107 64V61M116 66V61M127 64V61"/>
+    </g>
+    <path d="M105 52Q117 49 129 52M110 42Q117 40 124 42M113 32L117 30L121 32" stroke="#ab9563" stroke-opacity=".55" stroke-width=".65"/>
+  </g>
+  <!-- Curved flight feathers, a long neck and trailing legs give one continuous gesture. -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M304 56C287 51 283 34 268 24C259 18 247 15 236 14C254 11 279 16 295 29C304 36 309 40 316 42C317 30 330 16 351 9C340 20 337 36 329 48C326 53 320 57 312 59Z" fill="url(#wing)" stroke="#527d6d" stroke-opacity=".77" stroke-width="1.1"/>
+    <path d="M242 15C267 20 280 36 296 44M258 16C279 24 289 37 302 45M278 24C290 32 296 39 307 45M319 41C329 26 333 18 345 12M325 43C333 33 335 25 339 21" stroke="#789a85" stroke-opacity=".55" stroke-width=".75"/>
+    <path d="M295 51C304 49 312 53 320 52C334 51 340 36 352 33C357 32 362 33 367 35L385 35L369 38C362 36 357 37 354 42C346 56 335 64 319 62C310 62 302 57 295 57L283 60L291 54" stroke="#527d6d" stroke-opacity=".82" stroke-width="1.1"/>
+    <path d="M305 61C289 67 274 67 257 72M304 59C286 63 272 62 253 65" stroke="#ab945c" stroke-opacity=".65" stroke-width=".8"/>
+    <path d="M354 33Q359 31 364 34" stroke="#b7a16c" stroke-width="1.3" stroke-opacity=".75"/>
+    <circle cx="363" cy="35" r=".7" fill="#527d6d" fill-opacity=".8" stroke="none"/>
+  </g>
+  <g stroke-linecap="round">
+    <path d="M389 52Q396 49 401 54Q409 45 417 46M416 30Q421 27 425 30Q430 24 436 24" stroke="#79998a" stroke-opacity=".45" stroke-width=".75"/>
+    <path d="M18 88C76 75 107 87 155 83S233 65 275 73S357 92 407 80S469 70 508 73M51 94C102 87 120 94 169 89S232 78 257 79M325 93C370 96 390 86 434 85S479 90 501 85" stroke="url(#river)" stroke-width=".85"/>
+    <path d="M183 85C214 76 231 75 253 77M364 85C387 85 397 80 411 79" stroke="#af985f" stroke-opacity=".53" stroke-width=".7"/>
+  </g>
+</svg>

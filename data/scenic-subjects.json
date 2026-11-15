@@ -1,0 +1,114 @@
+[
+  {
+    "id": "east-lake-tingtao",
+    "name": "东湖听涛景区",
+    "area": "武昌",
+    "category": "景点",
+    "aliases": [
+      "听涛景区",
+      "东湖听涛",
+      "听涛风景区",
+      "听涛景点",
+      "东湖听涛风景区",
+      "东湖风景区听涛景区",
+      "东湖生态旅游风景区听涛景区"
+    ],
+    "description": "东湖最早开放的景区，结合屈原文化与湖滨风景，可沿湖漫步，游览行吟阁和碧潭观鱼；按体力选择短线休闲。",
+    "imageCaption": "东湖听涛景区 · 碧潭观鱼及湖滨秋色实景。拍摄季节与现场景色可能不同。",
+    "relatedIds": [
+      "east-lake",
+      "east-lake-greenway",
+      "qu-yuan",
+      "hubei-museum"
+    ],
+    "factPage": 9,
+    "factUrl": "/materials/2026%E6%AD%A6%E6%B1%89%E6%97%85%E6%B8%B8%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=9",
+    "factLabel": "比赛旅游资料 · PDF第9页",
+    "factExcerpt": "听涛景区是东湖最早开放的景区，以屈子文化为原点。可登行吟阁眺望东湖，在屈原纪念馆了解屈原，在碧潭观鱼观赏锦鲤，沿听涛泳场边的步道漫步。"
+  },
+  {
+    "id": "east-lake-moshan",
+    "name": "东湖磨山景区",
+    "area": "武昌",
+    "category": "景点",
+    "aliases": [
+      "磨山景区",
+      "磨山风景区",
+      "东湖磨山",
+      "武汉磨山",
+      "东湖磨山风景区",
+      "东湖风景区磨山景区"
+    ],
+    "description": "东湖南侧的山水与楚文化游览区，可看楚城、楚天台等建筑；登高需考虑台阶和体力，梅园与樱花园是独立图文条目。",
+    "excludedTerms": [
+      "樱花园",
+      "樱园",
+      "梅园"
+    ],
+    "imageCaption": "东湖磨山景区 · 楚天台建筑实景。",
+    "relatedIds": [
+      "east-lake",
+      "east-lake-greenway",
+      "east-lake-sakura",
+      "east-lake-plum"
+    ],
+    "factPage": 9,
+    "factUrl": "/materials/2026%E6%AD%A6%E6%B1%89%E6%97%85%E6%B8%B8%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=9",
+    "factLabel": "比赛旅游资料 · PDF第9页",
+    "factExcerpt": "磨山景区位于东湖南面，三面环水，六峰逶迤。东湖梅园位于磨山景区，东湖之眼、楚城、楚天台等是标志性景点，周围还有武汉植物园与大李村。"
+  },
+  {
+    "id": "east-lake-luoyan",
+    "name": "东湖落雁景区",
+    "area": "东湖风景区",
+    "category": "景点",
+    "aliases": [
+      "落雁景区",
+      "东湖落雁",
+      "落雁风景区",
+      "东湖落雁风景区",
+      "东湖风景区落雁景区"
+    ],
+    "description": "以湖湾、栈道、园林与湿地景色见长的东湖分景区，适合赏景和摄影；距离中心城区较远，出发前核实交通、门票和开放安排。",
+    "excludedTerms": [
+      "落雁岛",
+      "落雁岛景区"
+    ],
+    "imageCaption": "东湖落雁景区 · 湖湾、栈道与秋日林木实景。拍摄季节与现场景色可能不同。",
+    "relatedIds": [
+      "east-lake",
+      "east-lake-greenway",
+      "east-lake-moshan"
+    ],
+    "factPage": 9,
+    "factUrl": "/materials/2026%E6%AD%A6%E6%B1%89%E6%97%85%E6%B8%B8%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=9",
+    "factLabel": "比赛旅游资料 · PDF第9页",
+    "factExcerpt": "落雁景区有九曲桥、园林建筑与观鸟景观。冬季有候鸟迁徙，距离市区相对较远，资料建议公交或自驾前往。落雁景区与落雁岛应分别核实，不能直接当作同一景点。"
+  },
+  {
+    "id": "east-lake-chuidi",
+    "name": "东湖吹笛景区（马鞍山森林公园）",
+    "area": "东湖风景区",
+    "category": "景点",
+    "aliases": [
+      "吹笛景区",
+      "东湖吹笛",
+      "东湖吹笛景区",
+      "马鞍山森林公园",
+      "武汉马鞍山森林公园",
+      "东湖马鞍山森林公园",
+      "东湖风景区吹笛景区"
+    ],
+    "description": "东湖的森林休闲游览区，即武汉马鞍山森林公园，以林间步道和自然景观为特色，适合徒步与放松；按体力选择路线。",
+    "imageCaption": "东湖吹笛景区（武汉马鞍山森林公园）· 林木与园内休憩建筑实景。",
+    "relatedIds": [
+      "east-lake",
+      "east-lake-greenway",
+      "botanical-garden"
+    ],
+    "factPage": 9,
+    "factUrl": "/materials/2026%E6%AD%A6%E6%B1%89%E6%97%85%E6%B8%B8%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=9",
+    "factLabel": "比赛旅游资料 · PDF第9页",
+    "factExcerpt": "吹笛景区即马鞍山森林公园，森林覆盖率高达80%，适合徒步健身。资料建议公交或自驾前往，部分区域允许汽车通行；出发前应核实当时通行安排。"
+  }
+]

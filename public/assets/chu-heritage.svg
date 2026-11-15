@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" fill="none">
+ <defs>
+  <linearGradient id="bronze" x1="250" y1="40" x2="850" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#d5d0a8"/><stop offset=".26" stop-color="#8e956c"/><stop offset=".53" stop-color="#c4b47c"/><stop offset=".8" stop-color="#63765a"/><stop offset="1" stop-color="#d8cc9a"/></linearGradient>
+  <radialGradient id="jade"><stop stop-color="#719687" stop-opacity=".25"/><stop offset=".72" stop-color="#315b50" stop-opacity=".14"/><stop offset="1" stop-color="#061e1c" stop-opacity=".7"/></radialGradient>
+  <linearGradient id="river" x1="0" y1="650" x2="900" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#8f9c79" stop-opacity="0"/><stop offset=".5" stop-color="#b2b594" stop-opacity=".35"/><stop offset="1" stop-color="#728c73" stop-opacity=".1"/></linearGradient>
+  <path id="cloud" d="M-30 0C-30-28 16-35 28-10C40 16 7 35-9 20C-27 3-2-14 9-2C18 9 1 17-3 8M-31 12C-15 47 47 35 48-4C49-43-9-59-36-29C-56-7-43 23-28 35"/>
+  <path id="feather" d="M0 0C12-21 42-25 54-12C31-16 13-1 7 15C24-4 47-1 55 10C30 5 14 18 9 36C22 21 43 25 48 36C27 31 10 44 6 57"/>
+  <g id="bell"><path d="M-9-34V-46Q0-53 9-46V-34M-31-30Q0-43 31-30L37 31Q0 46-37 31Z"/><path d="M-32-18Q0-28 32-18M-34 18Q0 32 34 18M-2-29V24M-22-12V12M21-12V12"/><path d="M-16-10H-10M-16 0H-10M-16 10H-10M10-10H16M10 0H16M10 10H16"/></g>
+ </defs>
+ <!-- An original ornamental composition inspired by Chu lacquer, bronze and celadon. -->
+ <g transform="translate(574 317)">
+  <circle r="306" stroke="url(#bronze)" stroke-width="1" opacity=".26"/>
+  <circle r="290" stroke="url(#bronze)" stroke-width="23" opacity=".34"/>
+  <circle r="274" stroke="url(#bronze)" stroke-width="1.5" opacity=".8"/>
+  <circle r="267" stroke="#c7c495" stroke-width=".6" opacity=".3"/>
+  <circle r="259" fill="url(#jade)" stroke="#74977e" stroke-width="1" opacity=".9"/>
+  <circle r="245" stroke="url(#bronze)" stroke-width=".8" opacity=".35"/>
+  <circle r="299" stroke="#bfc29b" stroke-dasharray="2 14" stroke-width="5" opacity=".35"/>
+  <g stroke="url(#bronze)" stroke-width="1.1" opacity=".5">
+   <use href="#cloud" transform="translate(-137 -203) rotate(-32) scale(.75)"/><use href="#cloud" transform="translate(136 -202) rotate(35) scale(.75)"/>
+   <use href="#cloud" transform="translate(-237 38) rotate(-90) scale(.7)"/><use href="#cloud" transform="translate(237 40) rotate(90) scale(.7)"/>
+   <use href="#cloud" transform="translate(-130 209) rotate(-140) scale(.7)"/><use href="#cloud" transform="translate(130 209) rotate(140) scale(.7)"/>
+  </g>
+  <g stroke="#b6bd96" stroke-width="1.1" opacity=".24" stroke-linecap="round" stroke-linejoin="round">
+   <!-- Phoenix wings turn into the river; their contours frame the city guide. -->
+   <path d="M-180 77C-234 13-216-77-164-107C-125-131-92-111-98-80C-105-50-143-59-133-84C-128-97-112-93-112-82M-163-106C-153-133-121-151-96-144L-106-131L-81-133L-94-119C-53-114-33-90-27-58"/>
+   <path d="M-162-96C-195-32-183 31-151 67C-178 3-155-45-123-48C-100-51-85-37-91-20C-98 0-124-5-118-20C-115-28-104-27-103-21"/>
+   <path d="M-152 53C-141 91-111 100-96 81C-84 66-93 49-108 52M-184 76C-151 136-82 147-51 114M-189 90C-162 165-55 192-16 129M-194 103C-178 190-43 234 13 148"/>
+   <use href="#feather" transform="translate(-175 -22) rotate(-20) scale(.8)"/><use href="#feather" transform="translate(-166 12) rotate(-2) scale(.8)"/>
+   <path d="M182 75C222 28 213-49 175-75C147-95 124-79 128-59C132-41 156-47 149-61M176-75C175-99 151-118 130-114L136-103L119-102L129-92"/>
+   <path d="M182 76C153 112 115 120 104 96C94 74 117 61 125 78M189 89C161 143 94 151 73 122M196 101C174 163 87 186 47 143"/>
+  </g>
+  <path d="M-90-263Q0-281 90-263" stroke="#dbcc9d" stroke-width="3" opacity=".5"/>
+  <path d="M-7-284H7M0-291V-277" stroke="#d6c391" opacity=".85"/>
+ </g>
+ <g stroke="url(#bronze)" opacity=".35"><circle cx="276" cy="150" r="45" fill="#092c29"/><circle cx="276" cy="150" r="39" stroke-width=".6"/><use href="#bell" transform="translate(276 150) scale(.62)" stroke-width="1.5"/></g>
+ <g stroke="url(#bronze)" opacity=".2"><circle cx="875" cy="509" r="69"/><circle cx="875" cy="509" r="61"/><use href="#cloud" transform="translate(873 509) scale(.85)" stroke-width="1.2"/></g>
+ <path d="M-90 616C91 519 236 594 389 640C590 702 753 617 977 546" stroke="url(#river)" stroke-width="44"/>
+ <path d="M-90 590C89 499 245 570 400 618C588 675 754 593 977 523" stroke="#a5ad87" opacity=".22"/>
+ <path d="M-90 650C91 554 236 627 389 674C590 735 753 650 977 580" stroke="#a5ad87" opacity=".14"/>
+ <g stroke="#a6b598" stroke-width="1" opacity=".18"><use href="#cloud" transform="translate(71 504) scale(1.6)"/><use href="#cloud" transform="translate(135 543) scale(1.1)"/></g>
+</svg>

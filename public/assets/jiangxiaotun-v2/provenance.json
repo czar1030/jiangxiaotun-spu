@@ -1,0 +1,43 @@
+{
+  "name": "江小豚 · 蓝白女仆参考改编版",
+  "type": "reference-based derivative, raster character with vector accessories",
+  "source": "https://github.com/YunYueSama/codex-deepseek-pet/blob/main/assets/whale/idle-front.png",
+  "settingReference": "https://github.com/xiaoweigen/deepseek-dafeiyu-assets",
+  "sourceSha256": "79d3952acfe7620e0c2cfe7b80e9e6793d5f115252962f81cd56778402f4cdcd",
+  "credits": [
+    "上善无形（上善）",
+    "ZipZipPipe",
+    "YunYueSama",
+    "xiaoweigen（设定资料参考）"
+  ],
+  "license": "CC BY-NC-SA 4.0; retain applicable upstream attribution license",
+  "changes": [
+    "黄鹤发饰",
+    "无喷泉、无背鳍的江豚围兜纹样",
+    "下半身轻度压缩为更短圆的比例",
+    "轻微微笑",
+    "透明立绘与头像裁切",
+    "闭眼状态与网页眨眼",
+    "正侧背三视图",
+    "黄鹤楼裙边刺绣",
+    "四种独立表情与手势",
+    "困惑汗珠"
+  ],
+  "aiImageGenerationUsed": false,
+  "additionalSources": [
+    {
+      "path": "character-standard.png",
+      "sha256": "75972692391d451a8302b6aed9fcbe300fb5fbbc60db643127d15d6067f64019"
+    },
+    {
+      "path": "actions.png",
+      "sha256": "b3f5063653a5366f35f93e95a2717076571c67a390a99794c2b7fa35e155146b"
+    }
+  ],
+  "emotionFrames": {
+    "happy": 5,
+    "thinking": 2,
+    "serious": 8,
+    "worried": 9
+  }
+}

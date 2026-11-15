@@ -1,0 +1,15 @@
+.git
+.env
+.env.*
+!.env.example
+node_modules
+logs
+output
+qa
+tmp
+tools
+.runtime
+__pycache__
+*.log
+*.pem
+*.key

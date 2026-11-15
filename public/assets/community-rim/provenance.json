@@ -1,0 +1,10 @@
+{
+  "source": "User-supplied attachment cc1f5177-91d8-40c8-9d11-e5e4c3f75d59",
+  "original": "output/community-rim/reference.png",
+  "sourceSha256": "0f19c9b188d3824b7e38f5e5a20a9d2ef14f9088730b6f8e3528b154c0a585b2",
+  "processing": "Exterior-connected white removal, largest silhouette selection and white-matte decontamination. Original pixels and enclosed white details retained.",
+  "originalSize": [
+    232,
+    297
+  ]
+}

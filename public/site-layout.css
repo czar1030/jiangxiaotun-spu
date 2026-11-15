@@ -1,0 +1,361 @@
+/* One visual language, four different ways to explore. */
+:root{--layout-ink:#234c43;--layout-muted:#66796a;--layout-gold:#b69a61;--layout-line:#c9cebb;--layout-paper:#f6f4ea}
+[hidden]{display:none!important}
+.welcome-meta,.hero-overline,.chu-header-index,.chu-vertical-mark,.hero-edition,.chrome-header-art,.chrome-header-river,.chrome-header-seal{display:none!important}
+.topbar{height:66px;box-shadow:none}
+.welcome{padding-top:28px}
+.sidebar .main-nav .nav-item{min-height:68px;text-decoration:none}
+.sidebar .nav-item>.chrome-nav-label{font-size:14px}
+.sidebar .nav-item small{font-size:10px;line-height:1.6}
+.sidebar .nav-arrow>i{font-size:16px}
+.sidebar .sidebar-guide{background:transparent!important;border:0;border-top:1px solid var(--layout-line);border-radius:0;box-shadow:none;padding-top:20px}
+.sidebar .sidebar-guide:before,.sidebar-guide .mini-label,.sidebar-guide .guide-location,.chrome-guide-landscape,.chrome-guide-platform{display:none}
+.sidebar .sidebar-guide>strong{color:var(--layout-ink);font-size:14px;letter-spacing:.4px}
+.sidebar .sidebar-guide>p{color:var(--layout-muted);font-size:11px;line-height:1.8}
+.sidebar .chrome-guide-window{height:94px;min-height:0;background:none;border:0;box-shadow:none}
+.sidebar .chrome-guide-breath img{height:92px;width:84px;filter:none}
+.sidebar .sidebar-bottom>p{font-size:9px}
+.topbar .language-control select{font-size:12px}
+.topbar .service-status{font-size:10px;border:0;background:transparent}
+.hero:after{border:0!important}
+.hero{box-shadow:none!important}
+.hero-copy>p{font-size:14px;line-height:2}
+.hero-actions button,.chu-hero-actions button,.community-primary{min-height:44px}
+.hero-bottom,.mascot-caption{letter-spacing:.5px}
+.layout-eyebrow{display:block;font-size:10px;line-height:1.6;letter-spacing:1.7px;color:#8b7751}
+button[data-action-kind=ask]{border-style:dashed!important}
+button[data-action-kind=ask]:hover{border-color:#7b9f8e!important;background:#e9eee4;color:#214c40}
+button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible{outline:2px solid #b9944f;outline-offset:5px}
+.content-layout{grid-template-columns:minmax(0,1fr);max-width:1120px}
+body:not(.chat-active) .discovery-rail{display:none}
+body:not(.chat-active) .composer-zone{max-width:860px;margin:0 auto}
+.chat-active .discovery-rail{display:none}
+.composer-context>span{font-size:13px}
+.composer-suggestions button{font-size:12px;line-height:1.7}
+.composer-hint,.disclaimer{font-size:10px!important;line-height:1.9}
+#message-input{font-size:15px;line-height:1.8}
+#message-input::placeholder{font-size:13px}
+.page-footer{font-size:10px;line-height:1.8}
+
+/* Wuhan: a reading opening, followed by four photographic chapters. */
+body[data-mode=wuhan] #city-hero{margin-bottom:66px;border-radius:3px}
+body[data-mode=wuhan] #city-hero .hero-copy>p{font-size:14px;max-width:345px}
+.chu-hero-header .chu-header-brand{font-size:11px}
+.chu-chapter-nav{border-top-color:#bcc09b55}
+.chu-chapter-nav a{min-height:64px}
+.chu-chapter-nav strong{font-size:13px}
+.chu-chapter-nav small{display:none}
+.chu-chapter-nav .chu-tab-arrow{font-size:16px}
+.wuhan-story-heading{padding-bottom:34px}
+.wuhan-story-heading>p{font-size:13px}
+.wuhan-story-eyebrow{font-size:10px;letter-spacing:1.5px}
+.wuhan-story-theatre:after,.story-gold-thread,.story-current{display:none}
+.wuhan-story-journey{border:0;border-radius:3px}
+.wuhan-story-beat>p{font-size:14px}
+.wuhan-story-beat-kicker{font-size:11px}
+.story-invite{box-shadow:none}
+.story-invite-text>small{font-size:10px}
+.story-invite-text>span{font-size:14px}
+.story-companion p{font-size:12px;line-height:1.9}
+.story-companion>div>span{font-size:10px}
+.wuhan-story-ending>span{font-size:16px}
+.culture-archive{margin:38px 0 48px;border-block:1px solid var(--layout-line);background:transparent}
+.culture-archive>summary{cursor:pointer;list-style:none;display:flex;gap:20px;align-items:center;padding:28px 4px;color:var(--layout-ink)}
+.culture-archive>summary::-webkit-details-marker{display:none}
+.archive-number{font:400 31px var(--serif);color:#9a8559}
+.culture-archive>summary strong{display:block;font:400 23px/1.6 var(--serif)}
+.culture-archive>summary small{display:block;font-size:12px;color:var(--layout-muted);margin-top:5px}
+.archive-toggle{margin-left:auto;font-size:24px;font-weight:300;transition:rotate .2s}
+.culture-archive[open] .archive-toggle{rotate:45deg}
+.culture-archive .chu-exhibition{padding-top:20px;margin-bottom:20px}
+.culture-archive .chu-section-heading{display:none}
+
+/* Travel: a useful starting point beside the illustrated city. */
+body[data-mode=travel] #welcome{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:0 24px;align-items:stretch}
+body[data-mode=travel] #welcome>*{grid-column:1/-1;min-width:0}
+body[data-mode=travel] #welcome>#city-hero{grid-column:1;grid-row:1;min-height:595px;margin:0 0 48px;padding:58px 28px 350px;display:block;border:0;border-radius:3px;overflow:hidden}
+body[data-mode=travel] #city-hero .hero-copy{width:100%;max-width:100%;padding:0;position:relative}
+body[data-mode=travel] #city-hero h1{font-size:clamp(29px,3vw,43px);line-height:1.45;letter-spacing:1px;white-space:normal;margin:0 0 14px}
+body[data-mode=travel] #city-hero .hero-copy>p{font-size:12px;line-height:1.9;max-width:330px}
+body[data-mode=travel] #city-hero .hero-actions,body[data-mode=travel] #city-hero .travel-header,body[data-mode=travel] #city-hero .travel-scene-note{display:none}
+body[data-mode=travel] #city-hero .hero-mascot{position:absolute;left:50%;bottom:32px;margin:0;width:280px;height:330px;transform:translateX(-50%)!important}
+body[data-mode=travel] #city-hero .mascot-bubble{top:16px;right:-10px;max-width:160px}
+body[data-mode=travel] #city-hero .travel-atlas{object-position:center bottom;opacity:.8}
+body[data-mode=travel] #city-hero .travel-line-label{opacity:.7}
+body[data-mode=travel] #welcome>.trip-start{grid-column:2;grid-row:1;margin-bottom:48px}
+.trip-start{display:block;border:1px solid #c9cdbb;background:#fbfaf3;padding:32px 26px 26px;border-radius:3px;color:var(--layout-ink)}
+.trip-start h2{font:400 clamp(24px,2.4vw,33px)/1.6 var(--serif);letter-spacing:.5px;margin:18px 0 10px;text-wrap:balance}
+.trip-start header>p{font-size:13px;line-height:1.9;color:var(--layout-muted);margin:0 0 25px}
+.trip-start form{display:grid;gap:17px}
+.trip-start label{display:grid;gap:9px;font-size:13px;color:#335849}
+.trip-start select{width:100%;min-height:46px;background:#f0f2e8;border:1px solid #c7cfbb;border-radius:3px;font-size:14px;padding:9px 10px;color:#244c40}
+#quick-trip-range-note{font-size:12px;line-height:1.8;color:#69755e;margin:0}
+.trip-start-actions{display:grid;gap:12px;margin-top:3px}
+.trip-start-actions button{min-height:46px;text-align:center;padding:12px 13px;font-size:13px;line-height:1.7;border-radius:3px}
+.trip-generate{background:#214e43;color:#fff6dd;border:1px solid #214e43}
+.trip-generate:hover{background:#163c33}
+.trip-refine{background:transparent;color:#46604b;border:1px solid #bdc6af}
+.trip-refine:hover{background:#edf0e3}
+.trip-output-note{font-size:11px;line-height:1.9;color:#707c69;margin:0}
+body[data-mode=travel] .city-experience{margin-top:0}
+body[data-mode=travel] .travel-journal{border:0;background:transparent;padding:24px 0 0;margin-bottom:35px}
+.experience-story,.experience-bridge{display:none!important}
+
+/* Community: the people and their work, followed by the invitation. */
+body[data-mode=community] #city-hero{margin-bottom:48px;min-height:510px;border:0;border-radius:3px;padding-top:90px;padding-bottom:90px}
+body[data-mode=community] #city-hero h1{font-size:clamp(35px,3.6vw,53px);line-height:1.5;letter-spacing:1px}
+body[data-mode=community] #city-hero .hero-copy>p{font-size:14px;line-height:2}
+body[data-mode=community] #city-hero .community-header small,body[data-mode=community] #city-hero .community-footer{display:none}
+.community-scroll{background:transparent;border:0;box-shadow:none;overflow:visible;margin-bottom:60px;color:#254d49}
+.community-scroll .scroll-heading{padding:0 0 28px;border:0;background:transparent}
+.community-scroll .scroll-heading h2{color:#264e48;font-size:34px;line-height:1.5}
+.community-scroll .scroll-edition{display:none}
+.community-scroll .scroll-kicker{color:#788b79;font-size:10px}
+.community-projects{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:22px}
+#community-projects,#saig-missions{scroll-margin-top:90px}
+.community-project{display:flex;min-width:0;flex-direction:column;color:#244d47;background:transparent;border-bottom:1px solid var(--layout-line);text-decoration:none}
+.community-project figure{position:relative;margin:0;height:230px;background:#e3e8dc;overflow:hidden}
+.community-project figure img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.community-project:hover figure img{transform:scale(1.035)}
+.community-project.project-culture figure{background:radial-gradient(ellipse at 50% 50%,#cdd8c5,#edf0e2)}
+.community-project.project-culture figure img{object-fit:contain;padding:15px;rotate:-8deg}
+.community-project.project-people figure img{object-fit:contain;background:#122a35}
+.community-project figcaption{position:absolute;inset:auto 0 0;padding:8px 10px;background:#092a2cd9;font-size:9px;line-height:1.7;color:#e2e8d7}
+.community-project-copy{padding:23px 0;display:flex;flex:1;align-items:start;flex-direction:column}
+.project-index{font:400 17px var(--serif);color:#9c885e}
+.community-project h3{font:400 clamp(22px,2vw,29px)/1.65 var(--serif);color:#264e48;margin:10px 0 14px;text-wrap:pretty}
+.community-project p{font-size:14px;line-height:2;color:#536c5f;margin:0 0 24px}
+.project-link{font-size:13px;line-height:1.8;color:#315d50;margin-top:auto}
+.community-project:hover .project-link{text-decoration:underline;text-underline-offset:5px}
+.community-overview{border:0;background:transparent;box-shadow:none;padding-inline:0}
+.community-overview .community-section-head{padding-bottom:24px}
+.community-intro-grid{margin-top:35px}
+.community-youth{box-shadow:none;border-radius:3px}
+.youth-quote-copy{padding-block:25px}
+.youth-quote-copy blockquote>p{font-size:25px;line-height:1.9}
+.community-definition h3{font-size:48px}
+
+/* SAIG: drama in the opening; a legible working brief below. */
+body[data-mode=saig] #city-hero{margin-bottom:54px}
+.saig-scroll{border:0;background:#f7f7ef;box-shadow:none;color:#284d50;overflow:hidden}
+.saig-scroll .scroll-heading{padding:30px 32px;background:#edf0e9;border-bottom:1px solid #c4cec4}
+.saig-scroll .scroll-heading h2{color:#244d4b;font-size:32px}
+.saig-scroll .scroll-kicker{color:#647f7c;font-size:10px}
+.saig-scroll .scroll-score-mark{color:#345b5e}
+.saig-scroll .scroll-score-mark strong{font-size:43px;color:#385d60}
+.mission-canvas{min-height:0;display:block;background:transparent;padding:30px 32px}
+.mission-canvas:before,.mission-city,.mission-art{display:none}
+.mission-copy{position:relative;width:auto;max-width:740px;padding:0;inset:auto;background:transparent;box-shadow:none}
+.mission-copy:before,.mission-copy:after{display:none}
+.mission-copy h3{font-size:29px;line-height:1.55;white-space:normal;color:#264e50;margin:15px 0}
+.mission-copy>p{font-size:14px;line-height:2;color:#5a7672;max-width:680px}
+.mission-weight{color:#947941;font-size:32px;margin-top:20px}
+.mission-weight small,.mission-weight>span{color:#617772;font-size:11px}
+.scroll-mission-tabs{background:#e8eee7;border-color:#c4cec4}
+.scroll-mission-tabs button{color:#526c67;border-color:#c2cfc3;padding:20px 18px}
+.scroll-mission-tabs button[aria-selected=true]{background:#214b49;color:#f2e7ca}
+.scroll-mission-tabs button>span{font-size:14px}
+.scroll-mission-tabs button>b{color:inherit;font-size:23px}
+.scroll-mission-tabs button>small{color:inherit}
+.mission-demo{background:transparent;border-color:#c4cec4;padding:22px 32px;color:#365955}
+.mission-demo p{font-size:13px;color:#365955}
+.mission-demo .scroll-text-action{color:#355b54;font-size:12px}
+.saig-scroll .saig-brief{display:block;margin:0;border:0;border-top:1px solid #c4cec4;border-radius:0;background:transparent;padding:28px 32px;box-shadow:none}
+.saig-brief-header h2{font:400 25px/1.6 var(--serif);color:#274e4b}
+.saig-brief-header small{display:none}
+.saig-brief-bottom p{font-size:14px;color:#567269;line-height:2}
+.submission-facts{font-size:12px;line-height:2;color:#697e6f;margin:16px 0}
+.scroll-entry-footer{background:#e8eee7;border-top:1px solid #c4cec4;padding:28px 32px}
+.scroll-entry-footer h3{font-size:28px;color:#264d4a}
+.scroll-entry-footer .scroll-primary{background:#254c49;color:#f1e6c9;border:0;min-height:48px;font-size:14px}
+.arena-entry .arena-join{min-height:46px}
+
+@media(min-width:1600px){
+  .welcome{max-width:1440px}
+  body[data-mode=travel] #welcome{grid-template-columns:minmax(0,1.35fr) minmax(340px,.8fr)}
+  body[data-mode=travel] #welcome>#city-hero{padding-bottom:365px}
+  body[data-mode=travel] #city-hero .hero-mascot{width:340px;height:360px}
+  .community-project figure{height:275px}
+}
+@media(max-width:1100px) and (min-width:761px){
+  body[data-mode=travel] #welcome{grid-template-columns:minmax(0,1fr) minmax(260px,.9fr);gap:0 16px;padding-inline:22px}
+  body[data-mode=travel] #welcome>#city-hero{padding-inline:22px}
+  body[data-mode=travel] #city-hero h1{font-size:29px}
+  .trip-start{padding:26px 20px}
+  .trip-start h2{font-size:25px}
+  .community-projects{gap:16px;grid-template-columns:1fr 1fr}
+  .community-project.project-culture{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:28px}
+  .community-project.project-culture figure{height:100%;min-height:275px}
+}
+@media(max-width:760px){
+  .topbar{height:62px}
+  .welcome{padding:18px 18px 0}
+  .content-layout{padding-inline:18px}
+  .sidebar .sidebar-guide{margin-top:20px}
+  body[data-mode=wuhan] #city-hero{margin-bottom:42px}
+  body[data-mode=wuhan] #city-hero .hero-copy>p{font-size:12px;max-width:300px}
+  .wuhan-story-heading{display:block;padding-bottom:24px}
+  .wuhan-story-heading>p{margin-top:15px;font-size:12px;max-width:none}
+  .wuhan-story-beat>p{font-size:13px;line-height:1.9}
+  .wuhan-story-beat h3{font-size:29px}
+  .story-companion p{font-size:11px}
+  .culture-archive>summary{gap:13px;padding-block:23px}
+  .culture-archive>summary strong{font-size:20px}
+  .culture-archive>summary small{font-size:11px}
+  body[data-mode=travel] #welcome{display:flex;flex-direction:column;gap:0}
+  body[data-mode=travel] #welcome>.trip-start{order:-1;margin:0 0 24px;padding:25px 23px}
+  .trip-start h2{font-size:30px;margin-top:12px}
+  .trip-start header>p{margin-bottom:22px}
+  .trip-start form{grid-template-columns:1fr 1fr;gap:16px 12px}
+  .trip-start label:first-child{grid-column:1/-1}
+  #quick-trip-range-note,.trip-start-actions,.trip-output-note{grid-column:1/-1}
+  .trip-start label{font-size:12px;min-width:0}
+  .trip-start select{font-size:13px;min-width:0}
+  .trip-start-actions{gap:10px}
+  body[data-mode=travel] #welcome>#city-hero{min-height:560px;padding:30px 25px 355px;margin-bottom:42px;width:100%}
+  body[data-mode=travel] #city-hero h1{font-size:36px;white-space:normal}
+  body[data-mode=travel] #city-hero .hero-mascot{bottom:20px}
+  body[data-mode=community] #city-hero{min-height:760px;padding:65px 25px 470px;margin-bottom:40px}
+  body[data-mode=community] #city-hero .hero-copy>p{font-size:13px}
+  body[data-mode=community] #city-hero h1{font-size:38px}
+  body[data-mode=community] #city-hero .hero-mascot{bottom:95px}
+  .community-scroll .scroll-heading{padding-bottom:23px}
+  .community-scroll .scroll-heading h2{font-size:29px}
+  .community-projects{grid-template-columns:1fr;gap:30px}
+  .community-project figure{height:245px}
+  .community-project.project-people figure{height:190px}
+  .community-project-copy{padding:20px 0 25px}
+  .community-project h3{font-size:27px;margin:10px 0 12px}
+  .community-project p{font-size:13px;line-height:1.95}
+  .community-overview .community-section-head h2{font-size:29px}
+  .youth-quote-copy blockquote>p{font-size:22px;line-height:1.9}
+  .saig-scroll .scroll-heading{padding:25px 22px;gap:16px}
+  .saig-scroll .scroll-heading h2{font-size:27px}
+  .saig-scroll .scroll-score-mark strong{font-size:31px}
+  .saig-scroll .scroll-score-mark span{font-size:8px}
+  .mission-canvas{padding:27px 22px}
+  .mission-copy h3{font-size:26px}
+  .mission-copy>p{font-size:13px}
+  .scroll-mission-tabs button{padding:16px 12px}
+  .scroll-mission-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .scroll-mission-tabs button{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;min-height:78px}
+  .scroll-mission-tabs button>span{font-size:12px}
+  .scroll-mission-tabs button>b{font-size:20px;margin:0}
+  .mission-demo{padding:23px 22px}
+  .mission-demo .scroll-text-action{margin-left:0;font-size:12px}
+  .saig-scroll .saig-brief{padding:25px 22px}
+  .scroll-entry-footer{padding:25px 22px}
+  .composer-suggestions{gap:8px}
+  .composer-suggestions button{font-size:12px}
+  .page-footer{display:block}
+  .page-footer>a{display:block;margin-top:8px}
+}
+@media(prefers-reduced-motion:reduce){
+  .community-project figure img,.archive-toggle{transition:none}
+}
+
+/* Editorial finish: one focal image, readable copy, feedback on interaction. */
+body[data-mode=wuhan] #city-hero .wuhan-gold-word{animation:none;background-position:35% 50%}
+.wuhan-gold-rivers .gold-flow{animation-play-state:paused}
+body[data-mode=wuhan] #city-hero:is(:hover,:focus-within) .gold-flow{animation-play-state:running}
+.wuhan-story-heading h2,.scroll-heading h2,.trip-start h2{letter-spacing:.5px;text-wrap:pretty}
+.wuhan-story-scene-meta{font-size:10px}
+.wuhan-story-scene-meta a{font-size:10px;line-height:1.8}
+.wuhan-story-beat>p{line-height:2.1;color:#d7dfcf}
+.story-companion p{color:#d3ddc9}
+.wuhan-story[data-chapter=future] .wuhan-story-photos img.is-active{object-position:65% 50%}
+.hero-copy>*{animation-duration:.45s}
+.hero-copy>h1,.hero-copy>p{animation-delay:0s}
+
+.community-projects{grid-template-columns:1.12fr 1fr;grid-template-rows:auto auto;gap:30px 34px;align-items:stretch}
+.community-project.project-culture{grid-column:1;grid-row:1/3;display:flex;flex-direction:column;border:0;background:#e9ede2}
+.community-project.project-culture figure{position:relative;min-height:390px;height:auto;flex:1;background:radial-gradient(ellipse at 48% 45%,#36594a,#133d35 60%,#0c302c);isolation:isolate}
+.project-card-pair{display:block;position:absolute;inset:35px 28px 55px}
+.community-project.project-culture .project-card-pair img{position:absolute;display:block;width:54%;height:auto;padding:0;object-fit:contain;filter:drop-shadow(0 15px 14px #031d2560);transition:transform .35s ease}
+.community-project.project-culture .project-card-jade{left:2%;top:3%;rotate:-9deg}
+.community-project.project-culture .project-card-sword{right:2%;top:17%;rotate:9deg}
+.community-project.project-culture:is(:hover,:focus-visible) .project-card-jade{transform:translateY(-4px)}
+.community-project.project-culture:is(:hover,:focus-visible) .project-card-sword{transform:translateY(-7px)}
+.community-project.project-culture .community-project-copy{flex:0;padding:28px 29px 32px}
+.community-project.project-culture h3{font-size:32px;line-height:1.65;max-width:360px}
+.community-project:not(.project-culture){grid-column:2;display:flex;flex-direction:column;border-bottom:1px solid #aebdab}
+.community-project:not(.project-culture) figure{height:160px;min-height:160px;flex:none}
+.community-project.project-people figure img{object-fit:contain;background:#153b3c}
+.community-project.project-place figure img{object-position:50% 38%}
+.community-project:not(.project-culture) .community-project-copy{padding:20px 0 24px}
+.community-project:not(.project-culture) h3{font-size:26px;line-height:1.6;margin:8px 0 11px}
+.community-project p{color:#4d6558;font-size:14px;line-height:1.95}
+.community-project figcaption{font-size:10px;background:#082c2be8;color:#e9edda;padding:9px 12px}
+.community-project .project-link{transition:transform .2s ease;text-decoration:underline;text-underline-offset:6px;text-decoration-color:#95a58b}
+.community-project:is(:hover,:focus-visible) .project-link{transform:translateX(4px);text-decoration-color:#486e55}
+
+.mission-panel{min-width:0;background:#fcfbf4}
+.mission-panel:focus-visible{outline:2px solid #b89c60;outline-offset:-3px}
+.mission-panel .mission-copy{max-width:none;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(240px,.9fr);column-gap:45px;align-items:start}
+.mission-copy>.scroll-kicker,.mission-copy>h3,.mission-copy>p{grid-column:1}
+.mission-copy>.scroll-kicker{font-size:11px}
+.mission-copy h3{font-size:30px;line-height:1.6;max-width:500px}
+.mission-copy>p{font-size:14px;line-height:2.05;margin-bottom:0;color:#4e6a60}
+.mission-notes{grid-column:2;grid-row:1/5;border-left:1px solid #c6cdbb;padding-left:28px;align-self:stretch}
+.mission-notes h4{font-size:12px;font-weight:500;line-height:1.8;color:#7b704d;margin:0 0 20px}
+.mission-notes ul{list-style:none;display:grid;gap:20px;padding:0;margin:0}
+.mission-notes li{position:relative;padding-left:20px;font-size:14px;line-height:1.9;color:#476659}
+.mission-notes li:before{content:'✓';position:absolute;left:0;top:0;color:#9a8248;font-size:13px}
+.saig-scroll .scroll-heading h2{font-size:32px;line-height:1.55}
+.saig-scroll .scroll-score-mark span{font-size:9px;line-height:1.8}
+.scroll-mission-tabs button{min-height:100px;transition:background .2s,color .2s}
+.scroll-mission-tabs button:hover:not([aria-selected=true]){background:#dae4d8;color:#274e46}
+.mission-demo{gap:15px}
+.mission-demo p{font-size:13px;line-height:1.9}
+.mission-demo .scroll-text-action{min-height:42px;display:inline-flex;align-items:center}
+.trip-start select{transition:border-color .18s,background .18s}
+.trip-start select:is(:hover,:focus){border-color:#718d71;background:#f7f8ef}
+.trip-start-actions button{transition:background .18s,transform .18s}
+.trip-start-actions button:active{transform:translateY(1px)}
+
+@media(min-width:1600px){
+  .community-project:not(.project-culture) figure{height:200px}
+  .community-project.project-culture figure{min-height:440px}
+  .community-project.project-culture h3{font-size:37px}
+}
+@media(max-width:1100px) and (min-width:761px){
+  .community-projects{grid-template-columns:1fr 1fr;gap:25px}
+  .community-project.project-culture{grid-column:1/-1;grid-row:auto;display:grid;grid-template-columns:1fr 1fr}
+  .community-project.project-culture figure{min-height:360px}
+  .community-project:not(.project-culture){grid-column:auto}
+  .community-project.project-culture .community-project-copy{padding:27px}
+  .community-project.project-culture h3{font-size:28px}
+  .mission-panel .mission-copy{grid-template-columns:1fr;gap:0}
+  .mission-notes{grid-column:1;grid-row:auto;border-left:0;border-top:1px solid #c6cdbb;margin-top:25px;padding:22px 0 0}
+  .mission-notes ul{gap:13px}
+}
+@media(max-width:760px){
+  .community-projects{grid-template-columns:1fr;gap:32px}
+  .community-project.project-culture{grid-column:1;grid-row:auto;display:flex}
+  .community-project.project-culture figure{flex:none;height:360px;min-height:360px}
+  .community-project.project-culture .community-project-copy{padding:24px}
+  .community-project.project-culture h3{font-size:29px;line-height:1.65}
+  .community-project:not(.project-culture){grid-column:1}
+  .community-project:not(.project-culture) figure{height:210px;min-height:210px}
+  .community-project:not(.project-culture) h3{font-size:27px}
+  .community-project p{font-size:14px;line-height:1.95}
+  .community-project figcaption{font-size:10px}
+  .mission-panel .mission-copy{display:block}
+  .mission-copy h3{font-size:27px}
+  .mission-copy>p{font-size:14px;line-height:2}
+  .mission-notes{border-left:0;border-top:1px solid #c6cdbb;margin-top:24px;padding:21px 0 0}
+  .mission-notes h4{font-size:12px;margin-bottom:15px}
+  .mission-notes ul{gap:13px}
+  .mission-notes li{font-size:13px}
+  .scroll-mission-tabs button{min-height:78px}
+  .saig-scroll .scroll-heading{display:block}
+  .saig-scroll .scroll-heading h2{font-size:28px;max-width:none;white-space:pre-line;text-wrap:pretty}
+  .saig-scroll .scroll-score-mark{display:flex;align-items:baseline;justify-content:flex-start;gap:12px;margin-top:18px;text-align:left}
+  .wuhan-story-scene-meta,.wuhan-story-scene-meta a{font-size:9px}
+  .wuhan-story-beat>p{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  .community-project .project-link,.community-project .project-card-pair img,.trip-start select,.trip-start-actions button,.scroll-mission-tabs button{transition:none}
+  .wuhan-gold-rivers .gold-flow{animation:none!important}
+  .hero-copy>*{animation:none!important}
+}

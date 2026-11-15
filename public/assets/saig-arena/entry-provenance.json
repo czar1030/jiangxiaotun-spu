@@ -1,0 +1,20 @@
+{
+  "poses": {
+    "blue": {
+      "file": "commander-blue-walk-v2.webp",
+      "source": "output/imagegen/saig-walk-alpha-v2.png",
+      "registrationSource": "commander-blue-v7.webp",
+      "processing": "New identity-preserving API drawing with relaxed free arms. Preserve registered final face and lower hem/feet for the planted pose transition. Blue canvas padded 100px; red armband recolored within its fabric only.",
+      "sha256": "f6f9c4619cf743be04749378d4b90759c5c12831c783118c74da6994553a0c10"
+    },
+    "red": {
+      "file": "commander-red-walk-v2.webp",
+      "source": "output/imagegen/saig-walk-alpha-v2.png",
+      "registrationSource": "commander-red-v6.webp",
+      "processing": "New identity-preserving API drawing with relaxed free arms. Preserve registered final face and lower hem/feet for the planted pose transition. Blue canvas padded 100px; red armband recolored within its fabric only.",
+      "sha256": "9427a79ec2245549a663d7793c2853570b5a5da8846432e9f22672281964fa60"
+    }
+  },
+  "reference": "https://www.bilibili.com/video/BV1sQdmBEE3t/",
+  "note": "Reference used for timing and body mechanics only; no reference footage is embedded in the site."
+}

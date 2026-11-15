@@ -1,0 +1,35 @@
+{
+  "mode": "user-authorized imagegen fallback CLI, gpt-image-2",
+  "source": "output/imagegen/community-minis/porpoise-sprites-keyed-v1.png",
+  "prompt": "output/imagegen/community-minis/porpoise-sprites-prompt-v1.txt",
+  "processing": "Three connected figures isolated; original generated RGBA retained, shared uniform scale, shared floor",
+  "assets": [
+    {
+      "pose": "hello",
+      "path": "public/assets/community-minis/porpoise-hello-v1.webp",
+      "size": [
+        512,
+        544
+      ],
+      "sha256": "118bd2a0ef750c03a7a58ecb0cea523ed67b0c1ca3b4b6aeee4ab59f99f73699"
+    },
+    {
+      "pose": "joy",
+      "path": "public/assets/community-minis/porpoise-joy-v1.webp",
+      "size": [
+        512,
+        544
+      ],
+      "sha256": "f45e618b86d4cada9604a2154e2b93f1a4115a27c494b6dedc88fdde98bb4756"
+    },
+    {
+      "pose": "hope",
+      "path": "public/assets/community-minis/porpoise-hope-v1.webp",
+      "size": [
+        512,
+        544
+      ],
+      "sha256": "9a18d91eb38d585bca520fc14b9ebdcff7184116df06ff318242aba3c875b781"
+    }
+  ]
+}

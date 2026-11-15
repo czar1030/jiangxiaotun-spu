@@ -1,0 +1,25 @@
+{
+  "voice": "zh-CN-XiaoyiNeural",
+  "engine": "Microsoft neural speech via edge-tts 7.3.1",
+  "pitch": "-12Hz",
+  "rate": "-6%",
+  "target": "少女帝王音：年轻清澈、沉稳有威严，去掉萌感",
+  "status": "用户已确认：就这样，很好。作为江小豚讲解默认声音。",
+  "clone": false,
+  "texts": "四区见 public/presenter-content.mjs；试听台词见 public/presenter.mjs",
+  "current_files": [
+    "wuhan-imperial.mp3",
+    "travel-imperial.mp3",
+    "community-imperial.mp3",
+    "saig-imperial.mp3",
+    "audition-imperial.mp3"
+  ],
+  "superseded_files": [
+    "wuhan.mp3",
+    "travel.mp3",
+    "community.mp3",
+    "saig.mp3",
+    "audition.mp3"
+  ],
+  "approved_at": "2026-11-12"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "wuhan-spu-concierge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test tests/mascot-face.test.mjs tests/app.test.mjs tests/media.test.mjs tests/language.test.mjs tests/mascot-idle.test.mjs tests/mascot-motion.test.mjs tests/chu-scene.test.mjs tests/travel-upgrade.test.mjs tests/community-scene.test.mjs tests/mascot-soft.test.mjs tests/hand-contact.test.mjs tests/saig-arena.test.mjs tests/travel-transit.test.mjs tests/community-story.test.mjs tests/ai-stream.test.mjs tests/itinerary-generation.test.mjs tests/reception-state.test.mjs tests/reply-format.test.mjs tests/travel-range.test.mjs tests/city-experience.test.mjs tests/composer-guidance.test.mjs tests/invitation-gaze.test.mjs tests/weather-curation.test.mjs tests/wuhan-chapters.test.mjs tests/module-navigation.test.mjs tests/answer-layout.test.mjs tests/saved-workspace.test.mjs tests/presenter.test.mjs tests/deepseek.test.mjs",
+    "test:security": "node --test tests/ai-policy.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

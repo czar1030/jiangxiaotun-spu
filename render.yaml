@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: jiangxiaotun-spu
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: AI_ENABLED
+        value: "false"
+      - key: AI_PROVIDER_BUDGET_CONFIRMED
+        value: "false"
+      - key: AI_DAILY_CALL_LIMIT
+        value: "100"
+      - key: AI_CLIENT_DAILY_CALL_LIMIT
+        value: "20"
+      - key: AI_DAILY_OUTPUT_TOKEN_LIMIT
+        value: "200000"
+      - key: AI_MAX_CONCURRENT_CALLS
+        value: "2"
+      - key: AI_MODEL
+        value: deepseek-flash
+      - key: AI_BASE_URL
+        value: https://api.deepseek.com/v1
+      - key: AI_API_STYLE
+        value: chat

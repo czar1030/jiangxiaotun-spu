@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+logs/
+qa/
+*.log
+tools/
+output/
+tmp/
+.runtime/
+__pycache__/
+*.pyc
+*.pem
+*.key
+*.p12
+.DS_Store

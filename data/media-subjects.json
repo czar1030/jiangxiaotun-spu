@@ -1,0 +1,824 @@
+[
+  {
+    "id": "yellow-crane",
+    "name": "黄鹤楼",
+    "area": "武昌",
+    "aliases": [
+      "黄鹤楼公园"
+    ],
+    "category": "景点",
+    "description": "江城代表楼阁与登高观景地",
+    "query": "黄鹤楼"
+  },
+  {
+    "id": "east-lake",
+    "name": "东湖",
+    "area": "武昌",
+    "aliases": [
+      "东湖风景区",
+      "武汉东湖"
+    ],
+    "category": "景点",
+    "description": "湖泊风景与城市休闲空间",
+    "query": "东湖"
+  },
+  {
+    "id": "east-lake-greenway",
+    "name": "东湖绿道",
+    "area": "武昌",
+    "aliases": [
+      "东湖骑行"
+    ],
+    "category": "景点",
+    "description": "沿湖漫步与骑行路线",
+    "query": "东湖绿道"
+  },
+  {
+    "id": "east-lake-sakura",
+    "name": "东湖樱花园",
+    "area": "武昌",
+    "aliases": [
+      "磨山樱花园"
+    ],
+    "category": "景点",
+    "description": "春季赏樱主题园林",
+    "query": "东湖樱花园"
+  },
+  {
+    "id": "hubei-museum",
+    "name": "湖北省博物馆",
+    "area": "武昌",
+    "aliases": [
+      "省博",
+      "湖北省博",
+      "曾侯乙编钟"
+    ],
+    "category": "景点",
+    "description": "荆楚历史与文物展览",
+    "query": "湖北省博物馆"
+  },
+  {
+    "id": "wuhan-university",
+    "name": "武汉大学",
+    "area": "武昌",
+    "aliases": [
+      "武大",
+      "武汉大学樱花"
+    ],
+    "category": "景点",
+    "description": "校园建筑与春季樱花景观",
+    "query": "武汉大学樱花"
+  },
+  {
+    "id": "yangtze-bridge",
+    "name": "武汉长江大桥",
+    "area": "武昌,汉阳",
+    "aliases": [
+      "长江大桥",
+      "武汉第一长江大桥"
+    ],
+    "category": "景点",
+    "description": "跨江桥梁与武汉城市地标",
+    "query": "武汉长江大桥"
+  },
+  {
+    "id": "jianghan",
+    "name": "江汉路步行街",
+    "area": "汉口",
+    "aliases": [
+      "江汉路"
+    ],
+    "category": "景点",
+    "description": "历史建筑与商业步行街",
+    "query": "江汉路步行街"
+  },
+  {
+    "id": "jianghan-customs",
+    "name": "江汉关博物馆",
+    "area": "汉口",
+    "aliases": [
+      "江汉关",
+      "江汉关大楼"
+    ],
+    "category": "景点",
+    "description": "近代建筑与江城历史",
+    "query": "江汉关博物馆"
+  },
+  {
+    "id": "hankou-river",
+    "name": "汉口江滩",
+    "area": "汉口",
+    "aliases": [
+      "汉口江滩公园"
+    ],
+    "category": "景点",
+    "description": "长江沿岸景观与休闲空间",
+    "query": "汉口江滩"
+  },
+  {
+    "id": "lihuangpi",
+    "name": "黎黄陂路",
+    "area": "汉口",
+    "aliases": [
+      "黎黄陂路片区",
+      "黎黄陂路街头博物馆"
+    ],
+    "category": "景点",
+    "description": "历史街区与街巷建筑",
+    "query": "黎黄陂路"
+  },
+  {
+    "id": "gude-temple",
+    "name": "古德寺",
+    "area": "汉口",
+    "aliases": [
+      "武汉古德寺"
+    ],
+    "category": "景点",
+    "description": "风格独特的寺院建筑",
+    "query": "古德寺"
+  },
+  {
+    "id": "qingchuan",
+    "name": "晴川阁",
+    "area": "汉阳",
+    "aliases": [
+      "武汉晴川阁",
+      "晴川阁景区"
+    ],
+    "category": "景点",
+    "description": "江边历史建筑与观景空间",
+    "query": "晴川阁"
+  },
+  {
+    "id": "guiyuan",
+    "name": "归元禅寺",
+    "area": "汉阳",
+    "aliases": [
+      "归元寺",
+      "汉阳归元寺"
+    ],
+    "category": "景点",
+    "description": "武汉代表性寺院与传统建筑",
+    "query": "归元禅寺"
+  },
+  {
+    "id": "guqin-terrace",
+    "name": "古琴台",
+    "area": "汉阳",
+    "aliases": [
+      "琴台",
+      "伯牙台"
+    ],
+    "category": "景点",
+    "description": "与知音文化相关的历史景点",
+    "query": "古琴台"
+  },
+  {
+    "id": "gui-mountain",
+    "name": "龟山",
+    "area": "汉阳",
+    "aliases": [
+      "龟山风景区",
+      "龟山电视塔"
+    ],
+    "category": "景点",
+    "description": "山林步行与江桥景观",
+    "query": "龟山"
+  },
+  {
+    "id": "wuhan-ferry",
+    "name": "武汉轮渡",
+    "area": "长江两岸",
+    "aliases": [
+      "武汉渡江轮渡",
+      "武汉轮渡码头"
+    ],
+    "category": "景点",
+    "description": "渡江交通与水上观景体验",
+    "query": "武汉轮渡码头"
+  },
+  {
+    "id": "science-museum",
+    "name": "武汉科学技术馆",
+    "area": "汉口",
+    "aliases": [
+      "武汉科技馆",
+      "武汉新科技馆"
+    ],
+    "category": "景点",
+    "description": "亲子科学展览与体验",
+    "query": "武汉科技馆"
+  },
+  {
+    "id": "qintai-theater",
+    "name": "琴台大剧院",
+    "area": "汉阳",
+    "aliases": [
+      "武汉琴台大剧院",
+      "琴台音乐厅"
+    ],
+    "category": "景点",
+    "description": "湖畔文化建筑与演出场所",
+    "query": "琴台大剧院"
+  },
+  {
+    "id": "tanhualin",
+    "name": "昙华林",
+    "area": "武昌",
+    "aliases": [
+      "昙华林历史文化街区"
+    ],
+    "category": "景点",
+    "description": "历史街巷与文化漫游",
+    "query": "昙华林"
+  },
+  {
+    "id": "liangdao-street",
+    "name": "粮道街",
+    "area": "武昌",
+    "aliases": [
+      "武汉粮道街"
+    ],
+    "category": "景点",
+    "description": "本地早餐与街巷生活",
+    "query": "粮道街"
+  },
+  {
+    "id": "hubu-alley",
+    "name": "户部巷",
+    "area": "武昌",
+    "aliases": [
+      "武汉户部巷",
+      "户部巷小吃街"
+    ],
+    "category": "景点",
+    "description": "武汉小吃与饮食文化街区",
+    "query": "户部巷"
+  },
+  {
+    "id": "chuhe-hanjie",
+    "name": "楚河汉街",
+    "area": "武昌",
+    "aliases": [
+      "汉街",
+      "楚河"
+    ],
+    "category": "景点",
+    "description": "城市商业与滨水街区",
+    "query": "楚河汉街"
+  },
+  {
+    "id": "guangu",
+    "name": "光谷步行街",
+    "area": "光谷",
+    "aliases": [
+      "光谷世界城",
+      "世界城光谷步行街"
+    ],
+    "category": "景点",
+    "description": "商业街区与建筑风貌",
+    "query": "光谷步行街"
+  },
+  {
+    "id": "baotong-temple",
+    "name": "宝通禅寺",
+    "area": "武昌",
+    "aliases": [
+      "宝通寺"
+    ],
+    "category": "景点",
+    "description": "传统寺院与洪山周边历史文化",
+    "query": "宝通禅寺"
+  },
+  {
+    "id": "changchun-temple",
+    "name": "长春观",
+    "area": "武昌",
+    "aliases": [
+      "武汉长春观"
+    ],
+    "category": "景点",
+    "description": "武汉道教历史建筑",
+    "query": "长春观"
+  },
+  {
+    "id": "garden-expo",
+    "name": "武汉园博园",
+    "area": "汉口",
+    "aliases": [
+      "园博园",
+      "武汉园林博览园"
+    ],
+    "category": "景点",
+    "description": "园林景观与城市公共休闲",
+    "query": "武汉园博园"
+  },
+  {
+    "id": "wuhan-zoo",
+    "name": "武汉动物园",
+    "area": "汉阳",
+    "aliases": [
+      "汉阳动物园"
+    ],
+    "category": "景点",
+    "description": "动物观察与家庭游览",
+    "query": "武汉动物园大熊猫"
+  },
+  {
+    "id": "haichang",
+    "name": "武汉海昌极地海洋公园",
+    "area": "东西湖",
+    "aliases": [
+      "武汉极地海洋世界",
+      "海昌极地海洋公园"
+    ],
+    "category": "景点",
+    "description": "海洋动物与亲子主题游览",
+    "query": "武汉海昌极地海洋公园"
+  },
+  {
+    "id": "mulan-tianchi",
+    "name": "木兰天池",
+    "area": "黄陂",
+    "aliases": [
+      "武汉木兰天池"
+    ],
+    "category": "景点",
+    "description": "山水景观与郊野游览",
+    "query": "木兰天池"
+  },
+  {
+    "id": "mulan-grassland",
+    "name": "木兰草原",
+    "area": "黄陂",
+    "aliases": [
+      "武汉木兰草原"
+    ],
+    "category": "景点",
+    "description": "草地风景与户外休闲",
+    "query": "木兰草原"
+  },
+  {
+    "id": "mulan-mountain",
+    "name": "木兰山",
+    "area": "黄陂",
+    "aliases": [
+      "木兰山风景区"
+    ],
+    "category": "景点",
+    "description": "山岳景观与木兰文化",
+    "query": "木兰山"
+  },
+  {
+    "id": "botanical-garden",
+    "name": "武汉植物园",
+    "area": "武昌",
+    "aliases": [
+      "中国科学院武汉植物园",
+      "中科院武汉植物园"
+    ],
+    "category": "景点",
+    "description": "植物展示与自然科普",
+    "query": "武汉植物园"
+  },
+  {
+    "id": "dijiao-park",
+    "name": "堤角公园",
+    "area": "汉口",
+    "aliases": [
+      "武汉堤角公园"
+    ],
+    "category": "景点",
+    "description": "园林漫步与春季赏花",
+    "query": "堤角公园"
+  },
+  {
+    "id": "jiefang-park",
+    "name": "解放公园",
+    "area": "汉口",
+    "aliases": [
+      "武汉解放公园"
+    ],
+    "category": "景点",
+    "description": "城市绿地与慢行休闲",
+    "query": "解放公园"
+  },
+  {
+    "id": "shahu-park",
+    "name": "沙湖公园",
+    "area": "武昌",
+    "aliases": [
+      "武汉沙湖公园"
+    ],
+    "category": "景点",
+    "description": "湖泊景观与城市园林",
+    "query": "沙湖公园"
+  },
+  {
+    "id": "zhongshan-park",
+    "name": "武汉中山公园",
+    "area": "汉口",
+    "aliases": [
+      "中山公园"
+    ],
+    "category": "景点",
+    "description": "城市公园与公共休闲空间",
+    "query": "武汉中山公园"
+  },
+  {
+    "id": "qing-shan-river",
+    "name": "青山江滩",
+    "area": "青山",
+    "aliases": [
+      "武汉青山江滩"
+    ],
+    "category": "景点",
+    "description": "沿江绿地与城市江景",
+    "query": "青山江滩"
+  },
+  {
+    "id": "yangsigang-bridge",
+    "name": "杨泗港长江大桥",
+    "area": "汉阳,武昌",
+    "aliases": [
+      "杨泗港大桥"
+    ],
+    "category": "景点",
+    "description": "具有鲜明色彩的跨江桥梁",
+    "query": "杨泗港长江大桥"
+  },
+  {
+    "id": "yingwuzhou-bridge",
+    "name": "鹦鹉洲长江大桥",
+    "area": "汉阳,武昌",
+    "aliases": [
+      "鹦鹉洲大桥"
+    ],
+    "category": "景点",
+    "description": "跨江桥梁与夜景地标",
+    "query": "鹦鹉洲长江大桥"
+  },
+  {
+    "id": "wuhan-tiandi",
+    "name": "武汉天地",
+    "area": "汉口",
+    "aliases": [
+      "武汉新天地",
+      "汉口天地"
+    ],
+    "category": "景点",
+    "description": "历史建筑与商业街区",
+    "query": "武汉天地商业街"
+  },
+  {
+    "id": "minzhong",
+    "name": "民众乐园",
+    "area": "汉口",
+    "aliases": [
+      "武汉民众乐园",
+      "民众乐园商场"
+    ],
+    "category": "景点",
+    "description": "近代商业建筑与城市文化空间",
+    "query": "民众乐园"
+  },
+  {
+    "id": "gutian-bridge",
+    "name": "古田桥",
+    "area": "汉口,汉阳",
+    "aliases": [
+      "武汉古田桥"
+    ],
+    "category": "景点",
+    "description": "汉江上的跨河桥梁",
+    "query": "古田桥"
+  },
+  {
+    "id": "wuhan-art-museum",
+    "name": "武汉美术馆",
+    "area": "汉口",
+    "aliases": [
+      "武汉美术馆汉口馆",
+      "汉口美术馆"
+    ],
+    "category": "景点",
+    "description": "美术展览与历史建筑",
+    "query": "武汉美术馆汉口馆",
+    "excludedTerms": [
+      "琴台馆",
+      "琴台"
+    ]
+  },
+  {
+    "id": "hankouli",
+    "name": "汉口里",
+    "area": "汉口",
+    "aliases": [
+      "武汉汉口里"
+    ],
+    "category": "景点",
+    "description": "传统街巷风貌与商业街区",
+    "query": "汉口里"
+  },
+  {
+    "id": "pinghe",
+    "name": "平和打包厂",
+    "area": "汉口",
+    "aliases": [
+      "武汉平和打包厂",
+      "平和打包厂旧址"
+    ],
+    "category": "景点",
+    "description": "工业历史建筑与文化空间",
+    "query": "平和打包厂"
+  },
+  {
+    "id": "jiqing-street",
+    "name": "吉庆街",
+    "area": "汉口",
+    "aliases": [
+      "武汉吉庆街"
+    ],
+    "category": "景点",
+    "description": "本地餐饮与街头生活",
+    "query": "吉庆街"
+  },
+  {
+    "id": "happy-valley",
+    "name": "武汉欢乐谷",
+    "area": "青山",
+    "aliases": [
+      "武汉欢乐谷主题公园"
+    ],
+    "category": "景点",
+    "description": "主题游乐与家庭休闲",
+    "query": "武汉欢乐谷"
+  },
+  {
+    "id": "panlongcheng",
+    "name": "盘龙城遗址博物院",
+    "area": "黄陂",
+    "aliases": [
+      "盘龙城遗址",
+      "盘龙城博物院"
+    ],
+    "category": "景点",
+    "description": "商代遗址与考古展示",
+    "query": "盘龙城遗址博物院"
+  },
+  {
+    "id": "east-lake-plum",
+    "name": "东湖梅园",
+    "area": "武昌",
+    "aliases": [
+      "武汉东湖梅园",
+      "磨山梅园"
+    ],
+    "category": "景点",
+    "description": "冬春季梅花观赏主题园林",
+    "query": "东湖梅园"
+  },
+  {
+    "id": "reganmian",
+    "name": "热干面",
+    "area": "武汉",
+    "aliases": [
+      "武汉热干面",
+      "芝麻酱热干面"
+    ],
+    "category": "美食",
+    "description": "以芝麻酱拌制的武汉代表性早餐",
+    "query": "热干面"
+  },
+  {
+    "id": "doupi",
+    "name": "三鲜豆皮",
+    "area": "武汉",
+    "aliases": [
+      "武汉豆皮",
+      "老通城豆皮",
+      "豆皮"
+    ],
+    "category": "美食",
+    "description": "糯米与馅料搭配外皮的武汉特色小吃",
+    "query": "三鲜豆皮"
+  },
+  {
+    "id": "hutangfen",
+    "name": "糊汤粉",
+    "area": "武汉",
+    "aliases": [
+      "武汉糊汤粉",
+      "鲜鱼糊汤粉",
+      "鱼糊粉"
+    ],
+    "category": "美食",
+    "description": "武汉传统早餐中的鱼汤米粉",
+    "query": "糊汤粉"
+  },
+  {
+    "id": "mianwo",
+    "name": "面窝",
+    "area": "武汉",
+    "aliases": [
+      "武汉面窝"
+    ],
+    "category": "美食",
+    "description": "外圈酥脆的武汉传统早餐",
+    "query": "面窝"
+  },
+  {
+    "id": "huanxituo",
+    "name": "欢喜坨",
+    "area": "武汉",
+    "aliases": [
+      "武汉欢喜坨",
+      "武汉麻团"
+    ],
+    "category": "美食",
+    "description": "以糯米与芝麻制作的甜口小吃",
+    "query": "欢喜坨"
+  },
+  {
+    "id": "nuomi-youtiao",
+    "name": "糯米包油条",
+    "area": "武汉",
+    "aliases": [
+      "武汉糯米包油条"
+    ],
+    "category": "美食",
+    "description": "糯米包裹油条的本地早餐",
+    "query": "糯米包油条"
+  },
+  {
+    "id": "tangbao",
+    "name": "武汉汤包",
+    "area": "武汉",
+    "aliases": [
+      "四季美汤包",
+      "汤包"
+    ],
+    "category": "美食",
+    "description": "武汉早餐与小吃中的汤包",
+    "query": "武汉汤包"
+  },
+  {
+    "id": "shaomei",
+    "name": "武汉烧梅",
+    "area": "武汉",
+    "aliases": [
+      "烧梅",
+      "重油烧梅",
+      "武汉烧麦"
+    ],
+    "category": "美食",
+    "description": "以糯米等为馅的本地小吃",
+    "query": "武汉烧梅"
+  },
+  {
+    "id": "humiwine",
+    "name": "糊米酒",
+    "area": "武汉",
+    "aliases": [
+      "武汉糊米酒"
+    ],
+    "category": "美食",
+    "description": "本地甜口米酒小吃",
+    "query": "糊米酒"
+  },
+  {
+    "id": "egg-wine",
+    "name": "蛋酒",
+    "area": "武汉",
+    "aliases": [
+      "武汉蛋酒",
+      "鸡蛋米酒"
+    ],
+    "category": "美食",
+    "description": "早餐搭配的鸡蛋米酒",
+    "query": "蛋酒"
+  },
+  {
+    "id": "lotus-soup",
+    "name": "排骨藕汤",
+    "area": "武汉",
+    "aliases": [
+      "莲藕排骨汤",
+      "藕汤",
+      "武汉藕汤"
+    ],
+    "category": "美食",
+    "description": "湖北具有代表性的莲藕汤品",
+    "query": "排骨藕汤"
+  },
+  {
+    "id": "wuchang-fish",
+    "name": "武昌鱼",
+    "area": "武汉",
+    "aliases": [
+      "清蒸武昌鱼"
+    ],
+    "category": "美食",
+    "description": "具有湖北饮食文化代表性的鱼类菜肴",
+    "query": "武昌鱼"
+  },
+  {
+    "id": "youmen-prawn",
+    "name": "油焖大虾",
+    "area": "武汉",
+    "aliases": [
+      "武汉小龙虾",
+      "油焖小龙虾",
+      "小龙虾"
+    ],
+    "category": "美食",
+    "description": "武汉常见的夏季虾类菜肴",
+    "query": "油焖大虾"
+  },
+  {
+    "id": "duck-neck",
+    "name": "武汉鸭脖",
+    "area": "武汉",
+    "aliases": [
+      "精武鸭脖",
+      "鸭脖",
+      "周黑鸭"
+    ],
+    "category": "美食",
+    "description": "武汉常见的卤味食品",
+    "query": "武汉鸭脖"
+  },
+  {
+    "id": "lotus-stem",
+    "name": "清炒藕带",
+    "area": "武汉",
+    "aliases": [
+      "藕带",
+      "酸辣藕带",
+      "泡藕带"
+    ],
+    "category": "美食",
+    "description": "以莲藕嫩茎制作的湖北家常菜",
+    "query": "清炒藕带"
+  },
+  {
+    "id": "ciba-fish",
+    "name": "糍粑鱼",
+    "area": "武汉",
+    "aliases": [
+      "武汉糍粑鱼"
+    ],
+    "category": "美食",
+    "description": "湖北家常鱼类菜肴",
+    "query": "糍粑鱼"
+  },
+  {
+    "id": "huangpi-sanxian",
+    "name": "黄陂三鲜",
+    "area": "武汉",
+    "aliases": [
+      "武汉黄陂三鲜",
+      "三鲜"
+    ],
+    "category": "美食",
+    "description": "黄陂地区具有代表性的传统菜肴",
+    "query": "黄陂三鲜"
+  },
+  {
+    "id": "qishui-bao",
+    "name": "汽水包",
+    "area": "武汉",
+    "aliases": [
+      "武汉汽水包",
+      "汽水粑"
+    ],
+    "category": "美食",
+    "description": "武汉传统煎制早餐小吃",
+    "query": "汽水包"
+  },
+  {
+    "id": "re-dumpling",
+    "name": "鲜肉煎包",
+    "area": "武汉",
+    "aliases": [
+      "武汉生煎包",
+      "武汉煎包"
+    ],
+    "category": "美食",
+    "description": "武汉街头常见的煎制包点",
+    "query": "鲜肉煎包"
+  },
+  {
+    "id": "wuhan-noodles",
+    "name": "牛肉粉面",
+    "area": "武汉",
+    "aliases": [
+      "武汉牛肉面",
+      "武汉牛肉粉"
+    ],
+    "category": "美食",
+    "description": "武汉常见的汤粉面早餐",
+    "query": "武汉牛肉粉"
+  }
+]

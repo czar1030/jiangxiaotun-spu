@@ -1,0 +1,34 @@
+{
+  "reviewedAt": "2026-10-29",
+  "publisher": "武汉地铁集团",
+  "page": "https://www.wuhanrt.com/",
+  "source": "https://www.wuhanrt.com/js/utils/common.js",
+  "sourceSha256": "0c890ff3bca7657bce1e072a5e60890bfd9ddb0ea06f25237f2242d40a069de9",
+  "lines": [
+    {
+      "name": "1号线",
+      "color": "#3080B7"
+    },
+    {
+      "name": "2号线",
+      "color": "#EB81B9"
+    },
+    {
+      "name": "3号线",
+      "color": "#DAC17D"
+    },
+    {
+      "name": "6号线",
+      "color": "#018237"
+    },
+    {
+      "name": "7号线",
+      "color": "#EE782E"
+    },
+    {
+      "name": "8号线",
+      "color": "#99ADAC"
+    }
+  ],
+  "usage": "Official route identity colours; the illustrated background is an original artistic composition, not a navigable metro map."
+}

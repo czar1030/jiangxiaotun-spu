@@ -1,0 +1,131 @@
+[
+  {
+    "id": "xinhai-north", "name": "辛亥革命博物院（北区·红楼）", "area": "武昌", "category": "景点", "tags": ["历史", "辛亥首义"],
+    "aliases": ["辛亥革命博物院北区", "辛亥革命博物院（北区）", "辛亥革命武昌起义纪念馆", "武昌起义军政府旧址", "鄂军都督府旧址", "武昌红楼", "红楼"],
+    "description": "红墙红瓦的原湖北谘议局建筑，武昌起义后成为鄂军都督府。这里是博物院北区，与南区现代展馆是不同建筑。",
+    "factExcerpt": "武汉市文旅局说明：博物院于2022年3月由原辛亥革命武昌起义纪念馆、辛亥革命博物馆整合组建，分南北两区。红楼为北区武昌起义军政府旧址，南区为原辛亥革命博物馆，不应混用建筑照片。",
+    "factUrl": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202302/t20230215_2153253.shtml", "factLabel": "武汉市文化和旅游局 · 博物院介绍",
+    "relatedIds": ["xinhai-south", "qiyimen", "huang-xing", "li-yuanhong"]
+  },
+  {
+    "id": "xinhai-south", "name": "辛亥革命博物院（南区）", "area": "武昌", "category": "景点", "tags": ["历史", "辛亥首义"],
+    "aliases": ["辛亥革命博物院", "辛亥革命博物院南区", "辛亥革命博物馆", "辛亥革命博物馆南区"],
+    "excludedTerms": ["北区", "红楼", "武昌起义纪念馆", "军政府旧址"],
+    "description": "首义广场南侧的现代红色展馆，原辛亥革命博物馆。此图展示南区；博物院还包括北区红楼，参观时应区分院区。",
+    "factExcerpt": "辛亥革命博物院分南北两区，于2022年3月在原辛亥革命武昌起义纪念馆、辛亥革命博物馆基础上组建。南区位于彭刘杨路258号，图为现代红色展馆；北区红楼位于武珞路1号。笼统提到博物院时，本图文卡标明展示南区，不代表整个机构只有一栋建筑。",
+    "factUrl": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202302/t20230215_2153253.shtml", "factLabel": "武汉市文化和旅游局 · 博物院介绍",
+    "relatedIds": ["xinhai-north", "qiyimen", "sun-yat-sen"]
+  },
+  {
+    "id": "qiyimen", "name": "起义门", "area": "武昌", "category": "景点", "tags": ["历史", "辛亥首义"], "aliases": ["武昌起义门", "中和门"],
+    "description": "武昌古城中和门，因武昌起义而得名。可与楚望台、首义广场串联，现见城楼包含后期修复部分。", "relatedIds": ["xinhai-north", "xinhai-south"]
+  },
+  {
+    "id": "nongjiangsuo", "name": "武昌农民运动讲习所旧址", "area": "武昌", "category": "景点", "tags": ["历史", "红色记忆"],
+    "aliases": ["武昌农讲所", "农讲所旧址", "武昌中央农民运动讲习所旧址", "农讲所旧址纪念馆", "武昌农民运动讲习所旧址纪念馆"],
+    "description": "位于武昌红巷，保留教室、宿舍等历史场景，是了解大革命时期农民运动干部培养的重要旧址。", "relatedIds": ["fifth-congress"]
+  },
+  {
+    "id": "fifth-congress", "name": "中共五大会址纪念馆", "area": "武昌", "category": "景点", "tags": ["历史", "红色记忆"],
+    "aliases": ["中共五大会址", "中国共产党第五次全国代表大会会址"],
+    "description": "位于都府堤，与农讲所同属武昌红色历史游览片区，可了解1927年前后的历史。", "relatedIds": ["nongjiangsuo"]
+  },
+  {
+    "id": "august-seven", "name": "八七会议会址纪念馆", "area": "汉口", "category": "景点", "tags": ["历史", "红色记忆"],
+    "aliases": ["八七会议会址", "八七会址"],
+    "description": "汉口鄱阳街上的历史建筑，1927年8月7日中共中央紧急会议在此召开。可与江岸老街的历史建筑一并了解。"
+  },
+  {
+    "id": "central-office", "name": "武汉中共中央机关旧址纪念馆", "area": "汉口", "category": "景点", "tags": ["历史", "红色记忆"],
+    "aliases": ["武汉中共中央机关旧址", "中共中央机关旧址纪念馆", "武汉中央机关旧址"],
+    "description": "位于胜利街165号，展示大革命后期中共中央在武汉的历史，与八七会议会址是不同场馆。",
+    "factExcerpt": "纪念馆位于武汉江岸区胜利街165号，重点展示大革命后期中国共产党在武汉、在江岸的历史，设有中共中央机关旧址复原陈列。",
+    "factUrl": "https://www.cnr.cn/hubei/zt/hkzxmhja/hsja/cg/20210331/t20210331_525450885.shtml", "factLabel": "央广网 · 场馆介绍", "relatedIds": ["august-seven", "lihuangpi"]
+  },
+  {
+    "id": "national-government", "name": "武汉国民政府旧址纪念馆", "area": "汉口", "category": "景点", "tags": ["历史", "近代汉口"],
+    "aliases": ["武汉国民政府旧址", "南洋大楼"],
+    "description": "位于中山大道南洋大楼，1927年曾作为武汉国民政府办公处。可结合民众乐园理解近代汉口城市空间。", "relatedIds": ["minzhong", "jianghan-customs"]
+  },
+  {
+    "id": "zhang-museum", "name": "张之洞与武汉博物馆", "area": "汉阳", "category": "景点", "tags": ["历史", "工业遗产"],
+    "aliases": ["张之洞博物馆", "张之洞与汉阳铁厂博物馆"],
+    "description": "以张之洞、汉阳造和武汉工业发展为主题的博物馆，适合了解近代实业、教育与城市变迁。",
+    "factExcerpt": "该馆是反映张之洞与汉阳造的专题馆，梳理清末现代工业发展与武汉城市变迁，展示汉阳铁厂的历史。参观开放状态需另行核实。",
+    "factUrl": "https://you.ctrip.com/sight/wuhan145/4733359.html", "factLabel": "携程攻略 · 场馆介绍", "relatedIds": ["zhang-zhidong"]
+  },
+  {
+    "id": "dazhimen", "name": "大智门火车站旧址", "area": "汉口", "category": "景点", "tags": ["历史", "铁路遗产"],
+    "aliases": ["大智门火车站", "京汉铁路汉口车站"],
+    "description": "京汉铁路相关的近代交通遗产，以四角钟塔式建筑见证汉口铁路交通的发展。现为旧址，不能当作运营中的客运车站。"
+  },
+  {
+    "id": "yuji-palace", "name": "禹稷行宫", "area": "汉阳", "category": "景点", "tags": ["历史", "古建与传说"],
+    "aliases": ["晴川阁禹稷行宫", "汉阳大禹庙"],
+    "description": "晴川阁古建筑群中的大禹祭祀建筑。可结合大禹治水传说了解武汉的江河文化，传说与可考建筑历史应分开介绍。", "relatedIds": ["qingchuan"]
+  },
+  {
+    "id": "zhan-house", "name": "詹天佑故居博物馆", "area": "汉口", "category": "景点", "tags": ["历史", "铁路遗产"],
+    "aliases": ["武汉詹天佑故居", "汉口詹天佑故居", "詹天佑故居"],
+    "description": "位于汉口洞庭街的两层楼房，詹天佑晚年在武汉居住、开展铁路工作期间的故居。此图为武汉旧居，与广州同名故居区分。",
+    "factExcerpt": "武汉詹天佑故居博物馆位于汉口洞庭街，其主体建筑为詹天佑1912年设计建造的西式二层砖木楼房，2016年并入江汉关博物馆。",
+    "factUrl": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202008/t20200827_1437247.shtml", "factLabel": "武汉市文化和旅游局 · 江汉关博物馆及所属场馆", "relatedIds": ["zhan-tianyou", "jianghan-customs"]
+  },
+  {
+    "id": "sun-yat-sen", "name": "孙中山", "kind": "person", "area": "近代", "category": "人物", "tags": ["历史", "辛亥首义"], "aliases": ["孙文", "孙逸仙"],
+    "excludedTerms": ["孙中山故居", "孙中山纪念馆", "孙中山纪念碑"],
+    "description": "近代民主革命先行者。认识武汉首义文化时，可结合首义广场上的孙中山雕像与相关展览了解其历史地位。",
+    "imageType": "纪念雕像", "imageCaption": "武汉红楼前的孙中山纪念铜像，为后人纪念雕塑，并非历史现场影像。", "relatedIds": ["xinhai-south", "xinhai-north"]
+  },
+  {
+    "id": "zhang-zhidong", "name": "张之洞", "kind": "person", "area": "晚清", "category": "人物", "tags": ["历史", "工业遗产"], "aliases": ["张香涛", "张南皮"],
+    "description": "清末湖广总督，在武汉兴办工业、教育等事业。可结合汉阳铁厂与张之洞与武汉博物馆理解武汉近代化。",
+    "factExcerpt": "张之洞创办汉阳铁厂，推动近代工业发展。汉阳工业遗产与张之洞与武汉博物馆共同构成认识武汉近代工业史的重要线索。",
+    "factUrl": "https://fgw.wuhan.gov.cn/xwzx/mtgz/202001/t20200116_864814.html", "factLabel": "武汉市发展和改革委员会 · 汉阳工业历史",
+    "imageType": "历史照片", "imageCaption": "张之洞历史肖像，图片来源为南京大学人物资料。", "relatedIds": ["zhang-museum"]
+  },
+  {
+    "id": "huang-xing", "name": "黄兴", "kind": "person", "area": "近代", "category": "人物", "tags": ["历史", "辛亥首义"], "aliases": ["黄克强"],
+    "excludedTerms": ["黄兴故居", "黄兴纪念馆", "黄兴路"],
+    "description": "辛亥革命重要领导者，武昌起义后赴武汉指挥阳夏保卫战。武汉首义文化游线中可了解黄兴拜将台等相关遗迹。",
+    "factExcerpt": "1911年武昌起义后，黄兴赶赴武汉指挥汉口、汉阳一带的阳夏保卫战。不能把武昌首义爆发当夜与其随后指挥保卫战的活动混为一谈。",
+    "factUrl": "https://sdaj.hunan.gov.cn/sdaj/wszt/xxsl/xxrw/200609/t20060928_1977842.html", "factLabel": "湖南省档案局 · 黄兴",
+    "imageType": "历史照片", "imageCaption": "黄兴历史肖像，保留原始黑白影调。", "relatedIds": ["xinhai-north", "xinhai-south"]
+  },
+  {
+    "id": "li-yuanhong", "name": "黎元洪", "kind": "person", "area": "近代", "category": "人物", "tags": ["历史", "辛亥首义"], "aliases": ["黎宋卿"],
+    "excludedTerms": ["黎元洪故居", "黎元洪墓"],
+    "description": "武昌起义后被推举为湖北军政府都督，是理解红楼与首义后军政府历史的重要人物。",
+    "factExcerpt": "武昌起义后，革命军在武昌红楼建立鄂军都督府，并推举黎元洪为都督。人物活动与建筑旧址可结合介绍。",
+    "factUrl": "https://www.hbda.gov.cn/info/546", "factLabel": "湖北档案信息网 · 辛亥首义文化",
+    "imageType": "历史照片", "imageCaption": "黎元洪身着军装的历史照片；不据此推定拍摄于武昌起义现场。", "relatedIds": ["xinhai-north"]
+  },
+  {
+    "id": "zhan-tianyou", "name": "詹天佑", "kind": "person", "area": "近代", "category": "人物", "tags": ["历史", "铁路遗产"], "aliases": [],
+    "description": "中国近代铁路工程师，晚年在汉口从事铁路工作并居住。可由洞庭街故居延伸了解武汉与中国铁路史。",
+    "factExcerpt": "詹天佑晚年在汉口居住、从事铁路工作，其洞庭街故居现为博物馆。所配人物照片题为《1905年京张铁路开工时的詹天佑》，来自中国国家博物馆；该照片不是武汉故居实景。",
+    "factUrl": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202008/t20200827_1437247.shtml", "factLabel": "武汉市文化和旅游局 · 詹天佑故居博物馆",
+    "imageType": "历史照片", "imageCaption": "1905年京张铁路开工时的詹天佑，中国国家博物馆资料。", "relatedIds": ["zhan-house", "dazhimen"]
+  },
+  {
+    "id": "soong-ching-ling", "name": "宋庆龄", "kind": "person", "area": "近代", "category": "人物", "tags": ["历史", "近代汉口"], "aliases": [],
+    "excludedTerms": ["宋庆龄汉口旧居", "宋庆龄旧居", "宋庆龄故居", "宋庆龄纪念馆"],
+    "description": "1926年底至1927年曾在汉口居住和工作，沿江大道的宋庆龄汉口旧居是了解这段历史的相关纪念地。",
+    "factExcerpt": "1926年12月，宋庆龄到达汉口后在今宋庆龄汉口旧居所在楼宇居住和工作，至1927年7月离汉。人物肖像与旧居建筑应分开标注。",
+    "factUrl": "https://agzy.youth.cn/qsnag/zxbd/202007/t20200706_12398341.htm", "factLabel": "中国青年网 · 武汉江岸红色场馆",
+    "imageType": "历史照片", "imageCaption": "宋庆龄历史肖像，非汉口旧居实景；不据此确定拍摄年月或地点。", "relatedIds": ["lihuangpi"]
+  },
+  {
+    "id": "li-bai", "name": "李白", "kind": "person", "area": "唐代", "category": "人物", "tags": ["历史", "诗词武汉"], "aliases": ["李太白"],
+    "description": "唐代诗人，《黄鹤楼送孟浩然之广陵》将黄鹤楼、长江与送别情谊写入千古名篇。所配图为后代艺术作品。",
+    "factExcerpt": "李白《黄鹤楼送孟浩然之广陵》：故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧空尽，唯见长江天际流。这里的黄鹤楼与武汉武昌的黄鹤楼文化相关；今日楼体为后代重建，不是唐代原楼。",
+    "factUrl": "https://www.gushiwen.cn/shiwenv_d3f231047aef.aspx", "factLabel": "古诗文网 · 黄鹤楼送孟浩然之广陵",
+    "imageType": "后人画作", "imageCaption": "南宋梁楷《李白行吟图》：后代艺术形象，非李白同时代写生或真实容貌记录。", "relatedIds": ["yellow-crane"]
+  },
+  {
+    "id": "qu-yuan", "name": "屈原", "kind": "person", "area": "战国楚文化", "category": "人物", "tags": ["历史", "荆楚文化"], "aliases": ["屈子"],
+    "excludedTerms": ["屈原故居"],
+    "description": "楚辞代表诗人。东湖听涛景区以行吟阁、屈原纪念馆及纪念雕像传承屈子文化；纪念设施不等于可考的本人故居。",
+    "imageType": "纪念雕像", "imageCaption": "武汉东湖行吟阁前的屈原纪念雕像，为后人塑造的艺术形象。", "relatedIds": ["east-lake"]
+  }
+]

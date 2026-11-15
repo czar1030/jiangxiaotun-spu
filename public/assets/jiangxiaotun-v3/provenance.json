@@ -1,0 +1,35 @@
+{
+  "name": "江小豚 · 楚风灵豚",
+  "version": 3,
+  "type": "newly drawn editable SVG paths; no embedded source raster",
+  "builder": "scripts/build_mascot_v3.py",
+  "aiImageGenerationUsed": false,
+  "palette": {
+    "hair": "#355875",
+    "eyes": "#e6b65c",
+    "robe": "#438d83",
+    "ivory": "#f9efd9",
+    "gold": "#e5bd78"
+  },
+  "changes": [
+    "侧分斜刘海与圆润短发束",
+    "侧后小发髻、保留呆毛",
+    "琥珀金眼与微傲娇眉嘴",
+    "青玉交领短襦、无围裙和蕾丝头箍",
+    "楚式凤纹、水纹裙缘、轻披帛、黄鹤簪",
+    "重绘三视图、四情绪动作和网页眨眼帧"
+  ],
+  "references": [
+    "https://github.com/xiaoweigen/deepseek-dafeiyu-assets",
+    "https://github.com/Cayhaze/deepseek-pet",
+    "https://github.com/YunYueSama/codex-deepseek-pet"
+  ],
+  "referenceCredits": [
+    "上善无形（上善）",
+    "ZipZipPipe",
+    "YunYueSama",
+    "xiaoweigen"
+  ],
+  "license": "CC BY-NC-SA 4.0 for this reference-informed art revision; historical raster sources remain in v2 with their original notices",
+  "note": "现代荆楚风创作服装，并非特定朝代服制或汉绣实物的考据复原。角色独占权与商用授权未经法律审查。"
+}

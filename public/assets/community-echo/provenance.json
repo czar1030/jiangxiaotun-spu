@@ -1,0 +1,25 @@
+{
+  "character": "Echo / 回声, Overwatch, Blizzard Entertainment",
+  "kind": "AI-generated realistic fan-art cutout; not an official game render",
+  "model": "gpt-image-2",
+  "workflow": "Imagegen skill fallback CLI, reference-guided image edit",
+  "prompt": "output/imagegen/echo-community-prompt-v2.txt",
+  "source": "output/imagegen/echo-community-alpha-v2.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "contactPixel": [
+    740,
+    770
+  ],
+  "layers": {
+    "body": "echo-body-v2.webp",
+    "foregroundHand": "echo-hand-v2.webp"
+  },
+  "references": [
+    "user attachment cf4097d6-c2cc-4e1c-983a-8ecc61939014",
+    "user attachment 32cdeec8-45e8-4528-ab4f-b88c4a3b4c46",
+    "user attachment bf91bb8b-ca69-4be2-a1d5-508555722300"
+  ]
+}

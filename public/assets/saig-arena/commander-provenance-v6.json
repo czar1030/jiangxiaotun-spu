@@ -1,0 +1,47 @@
+{
+  "generation": "User-authorized imagegen fallback CLI, gpt-image-2",
+  "size": [
+    1024,
+    1536
+  ],
+  "orientation": "Both sources face right in three-quarter view; red is mirrored in the scene",
+  "shared_source_bounds": [
+    139,
+    26,
+    998,
+    1355
+  ],
+  "shared_scale": 1.0458991723100075,
+  "poses": {
+    "blue": {
+      "pose": "hips",
+      "source": "output/imagegen/saig-hips-keyed-v6.png",
+      "prompt": "output/imagegen/saig-hips-prompt-v6.txt",
+      "blink_prompt": "output/imagegen/saig-hips-blink-prompt-v6.txt",
+      "asset": "commander-blue-v6.webp",
+      "blink_asset": "commander-blue-blink-v6.webp",
+      "blink_difference_bbox": [
+        481,
+        454,
+        849,
+        627
+      ],
+      "sha256": "4fcfea28d39c98efa3324c42446d7829480688130075d82607aeb5b112a7f429"
+    },
+    "red": {
+      "pose": "folded",
+      "source": "output/imagegen/saig-folded-keyed-v6.png",
+      "prompt": "output/imagegen/saig-folded-prompt-v6.txt",
+      "blink_prompt": "output/imagegen/saig-folded-blink-prompt-v6.txt",
+      "asset": "commander-red-v6.webp",
+      "blink_asset": "commander-red-blink-v6.webp",
+      "blink_difference_bbox": [
+        481,
+        455,
+        850,
+        627
+      ],
+      "sha256": "3dcbaa211fef51fb026f185207cd5c018e266815567eec8ade34637d7d1ba710"
+    }
+  }
+}

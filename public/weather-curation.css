@@ -1,0 +1,152 @@
+/* Three editions of a city: the weather selector is the start of the journey. */
+.city-experience{--weather-accent:#d4c490;--weather-soft:#9fb496;--weather-deep:#123c30;--weather-paper:#ede6c8}
+.city-experience[data-weather=rain]{--weather-accent:#b9c5bb;--weather-soft:#93adb0;--weather-deep:#123637;--weather-paper:#e0e5d7}
+.city-experience[data-weather=snow]{--weather-accent:#cbdbe0;--weather-soft:#9bb5c3;--weather-deep:#163641;--weather-paper:#e8ece3}
+.city-experience .experience-header{padding:30px 34px 27px}
+.city-experience .experience-header h2{font-size:32px;letter-spacing:1.6px}
+.city-experience .experience-weather-switch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:0 33px;border:0;border-radius:0;background:#082b27;border-block:1px solid #b0b38530}
+.experience-weather-switch button{position:relative;display:flex;align-items:center;gap:16px;text-align:start;min-width:0;min-height:96px;border-radius:0;padding:18px 23px;color:#a9b9a5;isolation:isolate}
+.experience-weather-switch button+button{border-left:1px solid #b0b38530}
+.experience-weather-switch button:after{content:"";position:absolute;left:23px;right:23px;bottom:0;height:2px;background:var(--weather-accent);transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.experience-weather-switch [aria-pressed=true]{background:linear-gradient(110deg,#66877224,#a1ac7130);color:#f0e8c6}
+.experience-weather-switch [aria-pressed=true]:after{transform:scaleX(1)}
+.experience-weather-switch button:hover{background:#74968a16;color:#ece8d0}
+.weather-choice-no{align-self:flex-start;margin-top:5px;font:10px/1.4 var(--serif);color:#afaa7a;opacity:.7}
+.weather-choice-glyph{font:35px/1 var(--serif);color:inherit;opacity:.85;flex:none}
+.weather-choice-copy{display:grid;gap:6px;min-width:0}
+.weather-choice-copy strong{font:400 17px/1.4 var(--serif);letter-spacing:1px;color:inherit}
+.weather-choice-copy small{font:8px/1.7 var(--sans);letter-spacing:.5px;color:#9daf9b}
+.weather-choice-arrow{margin-left:auto;font-size:19px;color:var(--weather-accent);opacity:.65}
+.experience-edition{display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden;min-height:160px;padding:28px 34px;background:radial-gradient(ellipse at 90% 20%,#7b997b1f,transparent 56%),var(--weather-deep);transition:background .6s}
+.experience-edition>div{position:relative;z-index:1;max-width:690px}
+.experience-edition .experience-eyebrow{color:var(--weather-soft);font-size:7px;letter-spacing:2px}
+.experience-edition h3{font:400 29px/1.5 var(--serif);color:var(--weather-paper);letter-spacing:1.5px;margin:10px 0 9px;text-wrap:balance}
+.experience-edition p{color:#afc1b4;font-size:11px;line-height:1.95;max-width:590px;margin:0}
+.experience-edition-mark{position:relative;align-self:center;font:100px/1 var(--serif);color:var(--weather-accent);opacity:.12;padding-inline:20px;transform:rotate(-8deg);flex:none;user-select:none}
+.city-experience .experience-gallery{grid-template-columns:minmax(0,1.3fr) minmax(320px,1fr)}
+.city-experience .experience-world{min-height:572px}
+.city-experience .experience-photo{filter:saturate(.86) contrast(1.03);object-position:50% 40%}
+.city-experience .experience-world[data-weather=rain] .experience-photo{filter:saturate(.72) contrast(1.02)}
+.city-experience .experience-world[data-weather=snow] .experience-photo{filter:saturate(.78) contrast(1.02)}
+.city-experience .experience-world[data-weather=snow]:after{display:none}
+.experience-weather-layer{position:absolute;inset:0;z-index:3;overflow:hidden;pointer-events:none;mask-image:linear-gradient(#000 0%,#000 48%,#0008 65%,transparent 87%)}
+.experience-weather-layer .weather-particle{position:absolute;top:-12%;left:var(--weather-x);width:var(--snow-size);height:100%;opacity:0;pointer-events:none}
+.experience-weather-layer .weather-particle:before{content:"";position:absolute;top:0;left:0;display:block}
+.experience-world[data-weather=rain] .weather-particle{animation:curation-rain var(--rain-duration) var(--weather-delay) linear infinite}
+.experience-world[data-weather=rain] .weather-particle:before{width:1px;height:24px;background:linear-gradient(transparent,#e1f3edb3);transform:rotate(11deg)}
+.experience-world[data-weather=rain] .weather-particle:nth-child(3n):before{height:16px;opacity:.5;filter:blur(.4px)}
+.experience-world[data-weather=snow] .weather-particle{animation:curation-snow var(--snow-duration) var(--weather-delay) linear infinite}
+.experience-world[data-weather=snow] .weather-particle:before{width:var(--snow-size);height:var(--snow-size);border-radius:50%;background:#f5f9f4;box-shadow:0 0 4px #e3f0f44d}
+.experience-world[data-weather=snow] .weather-particle:nth-child(3n):before{opacity:.5;filter:blur(.65px)}
+@keyframes curation-rain{0%{transform:translate3d(0,-5%,0);opacity:0}12%{opacity:.48}82%{opacity:.38}100%{transform:translate3d(-26px,120%,0);opacity:0}}
+@keyframes curation-snow{0%{transform:translate3d(0,-5%,0);opacity:0}12%{opacity:.8}48%{transform:translate3d(15px,52%,0)}84%{opacity:.65}100%{transform:translate3d(-9px,120%,0);opacity:0}}
+.city-experience .experience-photo-veil{background:linear-gradient(180deg,#082c2720,transparent 30%,#062b267d 57%,#062b26f5 100%)}
+.city-experience .experience-photo-copy{left:30px;right:30px;bottom:53px;max-width:560px}
+.city-experience .experience-photo-copy h3{font-size:37px;letter-spacing:2px;line-height:1.4;margin:12px 0}
+.city-experience .experience-photo-copy p{font-size:12px;line-height:2;max-width:460px}
+.city-experience .experience-photo-index{font-size:7px;letter-spacing:1.5px;left:30px;top:30px;max-width:calc(100% - 60px)}
+.city-experience .experience-weather-note{font-size:7px;left:30px;right:24px;bottom:25px;color:#b6c6b8;letter-spacing:.5px;line-height:1.6}
+.city-experience .experience-curation{padding:26px 24px 20px;background:linear-gradient(150deg,#173e3377,transparent),#0e302c}
+.city-experience[data-weather=rain] .experience-curation{background:#103332}
+.city-experience[data-weather=snow] .experience-curation{background:#12333a}
+.city-experience .experience-curation-heading h3{font-size:20px;letter-spacing:.6px;margin:9px 0;color:var(--weather-paper)}
+.city-experience .experience-curation-heading>.experience-eyebrow{color:var(--weather-soft)}
+.city-experience .experience-locations{display:grid;grid-template-columns:1fr;gap:9px;margin-top:18px}
+.city-experience .experience-location{display:grid;grid-template-columns:96px minmax(0,1fr);border-color:#a7b5962d;background:#4166530d;overflow:hidden;min-height:98px}
+.city-experience .experience-location-photo{width:100%;height:100%;min-height:98px}
+.city-experience .experience-location-photo img{filter:saturate(.68) brightness(.91);height:100%;object-position:50% 45%}
+.city-experience .experience-location-copy{padding:12px 14px}
+.city-experience .experience-location-copy strong{font-size:15px;line-height:1.5;letter-spacing:.4px;color:var(--weather-paper)}
+.city-experience .experience-location-copy small{left:6px;top:6px;font-size:9px;padding:2px 5px}
+.city-experience .experience-location-kind{font-size:8px;color:var(--weather-soft);margin-top:4px;letter-spacing:.8px}
+.experience-location-reason{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:9px;line-height:1.8;color:#a3b6ac;margin-top:6px}
+.city-experience .experience-location.is-selected{border-color:var(--weather-accent);background:#9bbba117;box-shadow:none}
+.city-experience .experience-location:hover{border-color:var(--weather-accent)}
+.city-experience .experience-location-arrow{font-size:13px;right:8px;bottom:7px}
+.city-experience .experience-collected-mark{left:70px;right:auto;top:7px}
+.city-experience .experience-route-status{font-size:8px;margin-top:14px;color:var(--weather-soft)}
+.experience-outing{padding:27px 33px 25px;background:linear-gradient(120deg,#173d3290,transparent),#0c2d28;border-bottom:1px solid #a4b18438}
+.experience-outing-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:21px}
+.experience-outing-heading .experience-eyebrow{font-size:8px;letter-spacing:1.5px;color:var(--weather-soft)}
+.experience-outing h4{font:400 18px/1.6 var(--serif);letter-spacing:.6px;margin:0;color:var(--weather-paper)}
+.experience-outing-stops{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;padding:0;margin:0 0 25px;list-style:none}
+.experience-outing-stops li{position:relative;display:flex;align-items:center;gap:10px;min-width:0}
+.experience-outing-stops li+li:before{content:"";position:absolute;right:calc(100% + 9px);width:15px;height:1px;background:#9baf9390}
+.experience-outing-stops li>span{font:italic 23px/1.4 var(--serif);color:var(--weather-accent);opacity:.8;flex:none}
+.experience-outing-stops strong{font:400 14px/1.7 var(--serif);color:#d9dfc8;letter-spacing:.4px}
+.experience-outing-notes{display:grid;grid-template-columns:1fr 1fr;gap:32px;border-top:1px solid #90a78a33;padding-top:17px}
+.experience-outing-notes p{display:grid;grid-template-columns:auto 1fr;align-items:baseline;gap:12px;margin:0;font-size:10px;line-height:1.9;color:#a3b9ab}
+.experience-outing-notes p>span:first-child{font-size:9px;letter-spacing:1px;color:var(--weather-accent);white-space:nowrap}
+.city-experience .experience-controls{padding:20px 33px;gap:22px;background:var(--weather-deep)}
+.city-experience .experience-guide>span{max-width:540px;font-size:12px;color:var(--weather-paper)}
+.city-experience .experience-weather-plan{display:flex;align-items:center;justify-content:center;flex:none;background:var(--weather-accent);color:#173830;border:1px solid #f1e6c547;padding:13px 18px;border-radius:2px;font-size:11px;transition:filter .25s,transform .25s}
+.city-experience .experience-weather-plan:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.city-experience.is-conversation:not([data-expanded=true]) .experience-body{display:none}
+@media(max-width:1150px){
+ .city-experience .experience-gallery{grid-template-columns:1fr}
+ .city-experience .experience-world{min-height:480px}
+ .city-experience .experience-curation{border-left:0;border-top:1px solid #8a98604d;padding:25px 28px}
+ .city-experience .experience-locations{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .city-experience .experience-curation-heading>span:last-child{position:static;display:block}
+ .city-experience .experience-location{grid-template-columns:88px minmax(0,1fr)}
+ .city-experience .experience-collected-mark{left:62px}
+ .city-experience .experience-weather-switch{padding-inline:18px}
+ .experience-weather-switch button{padding-inline:15px;gap:10px}
+ .weather-choice-copy strong{font-size:16px}
+ .weather-choice-copy small{font-size:7px}
+ .weather-choice-no{font-size:8px}
+ .weather-choice-glyph{font-size:30px}
+ .experience-edition{padding:26px 30px}
+ .experience-edition-mark{font-size:82px;padding-inline:5px}
+ .experience-outing-notes{gap:22px}
+}
+@media(max-width:620px){
+ .city-experience .experience-header{padding:25px 23px}
+ .city-experience .experience-header h2{font-size:26px;letter-spacing:.5px}
+ .city-experience .experience-weather-switch{padding:0 12px}
+ .experience-weather-switch button{flex-direction:column;align-items:start;gap:9px;min-height:120px;padding:17px 12px 15px}
+ .weather-choice-no,.weather-choice-arrow{display:none}
+ .weather-choice-glyph{font-size:28px}
+ .weather-choice-copy{gap:4px}
+ .weather-choice-copy strong{font-size:14px;letter-spacing:0}
+ .weather-choice-copy small{font-size:8px;line-height:1.7;letter-spacing:0}
+ .experience-weather-switch button:after{left:12px;right:12px}
+ .experience-edition{min-height:0;padding:25px 24px}
+ .experience-edition>div{padding-right:0}
+ .experience-edition h3{font-size:25px;letter-spacing:.3px;line-height:1.6;margin:10px 0 9px}
+ .experience-edition p{font-size:11px;line-height:2}
+ .experience-edition-mark{position:absolute;right:14px;top:17px;font-size:103px;opacity:.055}
+ .city-experience .experience-world{min-height:475px}
+ .city-experience .experience-photo-copy{left:24px;right:24px;bottom:57px}
+ .city-experience .experience-photo-copy h3{font-size:33px;letter-spacing:1px}
+ .city-experience .experience-photo-copy p{font-size:11px;line-height:2}
+ .city-experience .experience-photo-index{left:24px;top:24px;right:24px;font-size:6px;line-height:1.9;max-width:none}
+ .city-experience .experience-weather-note{left:24px;bottom:23px;right:24px;font-size:7px;line-height:1.9}
+ .city-experience .experience-curation{padding:24px 22px}
+ .city-experience .experience-curation-heading h3{font-size:21px;line-height:1.6}
+ .city-experience .experience-locations{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .city-experience .experience-location{display:flex;min-height:0}
+ .city-experience .experience-location-photo{height:92px;min-height:0}
+ .city-experience .experience-location-copy{padding:12px 10px 14px}
+ .city-experience .experience-location-copy strong{font-size:14px}
+ .city-experience .experience-location-kind{font-size:8px;letter-spacing:0;min-height:27px}
+ .experience-location-reason{font-size:9px;line-height:1.9;-webkit-line-clamp:3;margin-top:4px}
+ .city-experience .experience-collected-mark{left:auto;right:6px}
+ .experience-outing{padding:24px}
+ .experience-outing-heading{display:block;margin-bottom:17px}
+ .experience-outing h4{font-size:21px;margin-top:7px}
+ .experience-outing-stops{grid-template-columns:1fr;gap:17px;margin-bottom:22px}
+ .experience-outing-stops li{gap:14px}
+ .experience-outing-stops li+li:before{width:1px;height:10px;left:11px;right:auto;top:-13px;background:#91a38b77}
+ .experience-outing-stops li>span{font-size:22px}
+ .experience-outing-stops strong{font-size:14px}
+ .experience-outing-notes{grid-template-columns:1fr;gap:14px;padding-top:18px}
+ .experience-outing-notes p{display:block;font-size:11px;line-height:2}
+ .experience-outing-notes p>span:first-child{display:block;font-size:9px;margin-bottom:4px}
+ .city-experience .experience-controls{padding:20px 24px;gap:18px;align-items:stretch}
+ .city-experience .experience-guide{flex-basis:100%;align-items:center;gap:12px}
+ .city-experience .experience-guide-crop{width:43px;height:41px}
+ .city-experience .experience-guide>span{font-size:11px}
+ .city-experience .experience-weather-plan{width:100%;font-size:12px;min-height:47px;padding:12px}
+}
+@media(prefers-reduced-motion:reduce){.experience-weather-switch button:after,.city-experience .experience-weather-plan{transition:none}.city-experience .experience-weather-plan:hover{transform:none}.experience-weather-layer{display:none}}

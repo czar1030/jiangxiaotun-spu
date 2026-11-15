@@ -1,0 +1,16 @@
+.mascot-soft{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;display:none}
+body:is([data-mode="wuhan"],[data-mode="saig"]) .mascot-soft{display:block}
+body:is([data-mode="wuhan"],[data-mode="saig"]) #mascot-pet[data-soft-ready="true"] .mascot-visual{animation:none!important}
+body:is([data-mode="wuhan"],[data-mode="saig"]) #mascot-pet[data-soft-ready="true"] :is(.mascot-portrait,.mascot-greeting,.mascot-idle){visibility:hidden}
+/* Size the stage for the complete figure, with a separate row for its label. */
+body[data-mode="saig"] .hero-mascot{--figure-height:294px;height:calc(var(--figure-height) + 70px);transform:none!important;animation:none;transition:none}
+body[data-mode="saig"] .hero-mascot .mascot-pet{height:var(--figure-height)}
+body[data-mode="saig"] .hero-mascot .mascot-visual{height:var(--figure-height);margin-top:0}
+body[data-mode="saig"] .hero-mascot .mascot-caption{top:calc(var(--figure-height) + 18px);bottom:auto}
+@media(min-width:1600px){body[data-mode="saig"] .hero-mascot{--figure-height:340px}}
+@media(max-width:760px){
+ body[data-mode="saig"] #city-hero{display:flex;flex-direction:column;align-items:stretch;gap:28px;min-height:0}
+ body[data-mode="saig"] #city-hero .hero-copy{flex:none;width:100%;max-width:100%}
+ body[data-mode="saig"] #city-hero .hero-mascot{--figure-height:283px;position:relative;inset:auto;translate:none;align-self:center;flex:none;margin:0 auto}
+}
+@media(max-width:430px){body[data-mode="saig"] #city-hero .hero-mascot{--figure-height:253px}}

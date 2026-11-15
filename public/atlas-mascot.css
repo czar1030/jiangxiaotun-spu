@@ -1,0 +1,7 @@
+/* Keep the peeking head clear of both the search field and category labels. */
+.atlas-filters{position:relative;margin-top:66px;isolation:isolate;flex-shrink:0}
+.atlas-mini{position:absolute;left:0;bottom:calc(100% - 13px);width:66px;height:66px;pointer-events:none;user-select:none;opacity:0;z-index:2}
+.atlas-mini.is-ready{opacity:1}
+.atlas-mini-lift,.atlas-mini-roll{display:block;width:100%;height:100%;transform-origin:50% 52%}
+.atlas-mini-roll img{width:100%;height:100%;max-width:none;object-fit:contain;clip-path:polygon(0 0,100% 0,100% 86%,65% 86%,59% 82%,50% 83%,41% 82%,35% 86%,0 86%)}
+@media(max-width:760px){.atlas-filters{margin-top:70px;flex-wrap:nowrap;gap:2px}.atlas-filters button{min-width:0}.atlas-mini{width:60px;height:60px}}

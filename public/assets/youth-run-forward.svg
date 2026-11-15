@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 380" fill="none">
+  <title>擦干眼泪，继续向前</title>
+  <desc>浅金线描的江小豚一边擦去眼角的泪水，一边咬紧牙关向右前方奔跑。圆润的短发、呆毛、荆楚交领和江豚尾巴保留了她的模样。</desc>
+  <g stroke="#d7c695" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The rear leg folds up; the near leg reaches forward for the next step. -->
+    <path d="m172 261-20 26-24-15-12 13 32 29c7 5 14 3 19-3l30-35m-70-5-10-12c-6-5-15-3-17 3-1 5 4 11 10 17l7 6m-16-14 17 5m-14-10 13 5"/>
+    <path d="m210 274 13 28 28 19 13-14-22-22-7-22m15 59 10 10c7 7 20 7 28 1 1-5-5-8-12-10l-13-17m-4 24c7 4 16 5 26 1m-20-18 7 8m-20-1 8-9"/>
+    <!-- A swept skirt and flying porpoise fluke carry the direction of travel. -->
+    <path d="M167 218c-7 17-19 31-37 43 28 21 66 28 104 15l10-17-15-30m-60 3-21 27m33-23-10 33m26-30 1 35m18-34 11 29m-87-16c27 20 65 27 99 13m-87 2 4-1 2 5 4-1m67 10 4-3 4 2 3-4"/>
+    <path d="M153 249c-22 8-42 4-50-10-5-8-5-17-3-25-8 3-17 3-26-3 10-5 19-5 28-1 5-9 12-15 24-17-3 10-9 18-18 23-1 12 3 21 13 24 9 3 19 2 27-2"/>
+    <path d="m103 214 15-14m-34 12 16 1m13 24c8 10 21 13 35 9" stroke-width="1.15"/>
+    <!-- Back arm swings in opposition to the forward leg, ending in a small fist. -->
+    <path d="M178 193c-13 0-24 7-30 16l-17 20-16-9-10 14 24 19c6 4 11 3 16-1l25-23m-20-43 13 13m-8 16 10 12m-35 1-9 13m5-18-9 13"/>
+    <path d="m115 220-7-8c-4-4-8-3-9 1l-1 2-7-3c-4-1-6 2-4 5l-2 4c-1 4 1 6 4 7l17 6m-6-19 7 7m-16-5 9 6m-12-1 9 6" stroke-width="1.5"/>
+    <!-- Her rounded face rests directly on the collar, with no exposed neck. -->
+    <path d="m176 191-9 10 16 27 33-22 7 18 13-7-9-23m-53 6 12 20 25-18m-25 18-11 14m40-28 12 17m-48 11 49 6-4 12-51-7m21 1 5 7 7-5-5-8-7 6Zm5 7-10 12m14-10 7 14"/>
+    <!-- Head inclines into the run; a compact bob trails gently behind. -->
+    <g transform="rotate(7 211 190)">
+      <path d="M144 143c-12 0-18-4-24-9 10-2 16-5 22-9m129 32c11 0 18-4 24-9-9-2-16-5-22-9"/>
+      <path d="M147 168c-13-15-18-35-14-55 5-31 31-53 66-54 34-2 61 16 70 43 9 25 5 48-7 67l-14 15m-84-5-17-11"/>
+      <path d="M182 60c-3-13 7-29 21-30 13-1 18 11 10 24m-26-3c3-9 8-14 15-15"/>
+      <path d="M146 131c13-7 27-19 37-35m-39 31c0-23 13-42 34-50m4 1c10 21 29 34 46 44 11 7 16 18 8 26-6 6-16 5-23-2m-34-43c6 17 15 33 31 44m-26-69c25 1 47 13 61 35m-41-31c21 14 36 34 47 38 2 20-2 38-10 52m-94-41c-4 14 0 32 9 42m97-46c5 17 3 31-2 42"/>
+      <path d="M155 136c-3 8-3 18-1 26 5 24 24 39 53 38 27-1 47-18 47-43l-2-15"/>
+      <!-- Brows have resolve, while the eyes remain large and round. -->
+      <path d="m163 140 15 5m43 1 15-6m-74 13c7-6 17-5 24 1m31 0c6-6 16-6 22-2"/>
+      <path d="M166 154c-1 15 3 23 11 22 8-1 11-9 8-21m35-1c-1 13 3 22 10 21 8-1 11-10 8-22"/>
+      <path d="m178 153 2 11m50-12 1 11m-62-6 2 1m54-2 2 1m-64-2-4-2m83-2 4-3" stroke-width="1.2"/>
+      <!-- A single clenched-teeth mouth, never overlaid with another expression. -->
+      <path d="M200 181c7-3 15-3 22-1l-1 8c-6 3-13 3-19 0l-2-7Zm3 3 16-1" stroke-width="1.35"/>
+      <path d="m161 179 4 1m75-2 4-1m-54-9c-2 4-2 7 1 8" stroke-width="1.05"/>
+    </g>
+    <!-- Near shoulder, elbow and wrist form one continuous wiping gesture. -->
+    <path d="M228 204c10-3 18 1 24 11l15-20-31-22-9 11 18 16-11 13m-3-10 13 11m7-20 10 7m-25-28-6 9"/>
+    <path d="m237 173-12-9-9-1c-3 0-5 3-2 5l7 4-11-3c-4-1-6 2-3 5l12 6-9-2c-3 0-4 3-1 5l17 5 4-5" fill="#15364c"/>
+    <path d="m214 174 10 5m-6-8 9 5" stroke-width="1.1"/>
+    <!-- Only a few tear traces and trailing lines; no symbols compete with the figure. -->
+    <path d="M196 175c-3 4-4 7-2 9 3 2 5-1 5-4m-52 0-6 6m-6-1-7 4M91 169l-27-2m29 13-43-1m52 13-25 1m11 88-24 7m46 17-37 9" stroke-width="1.15" stroke-opacity=".58"/>
+    <path d="M179 345c34 3 66 3 96-1" stroke-width="1" stroke-opacity=".3"/>
+  </g>
+</svg>

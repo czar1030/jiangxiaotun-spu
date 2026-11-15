@@ -1,0 +1,14 @@
+{
+  "asset": "Echo arena fan-art variations, not official game models",
+  "generation": "User-authorized Image API, bundled imagegen CLI, gpt-image-2",
+  "prompt": "output/imagegen/saig-echo-prompt-v2.txt",
+  "source": "output/imagegen/saig-echo-keyed-v2.png",
+  "red_guard_source": "output/imagegen/saig-echo-guard-keyed-v3.png",
+  "red_guard_prompt": "output/imagegen/saig-echo-guard-prompt-v3.txt",
+  "processing": "Blue alpha preserved; independent red crossed-arm pose chroma extracted with bundled remove_chroma_key.py, then WebP encoded; red mirrored at display time",
+  "mascot": "New coherent three-quarter head turnaround from approved v5 identity; uniformly scaled, matched closed-eye patches. Native SVG costume with side/front collar, waist and skirt planes; inward-facing feet, blue commanding and red folded arms",
+  "head_source": "output/imagegen/saig-quarter-head-keyed-v5.png",
+  "head_prompt": "output/imagegen/saig-quarter-head-prompt-v5.txt",
+  "blink_source": "output/imagegen/saig-quarter-blink-v5.png",
+  "blink_prompt": "output/imagegen/saig-quarter-blink-prompt-v5.txt"
+}

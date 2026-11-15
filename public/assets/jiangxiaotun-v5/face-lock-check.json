@@ -1,0 +1,13 @@
+{
+  "originalFacePixelsVerified": 16260,
+  "faceRedrawn": false,
+  "eyeContourRedrawn": false,
+  "bodyWarped": false,
+  "sourceCostumeReused": false,
+  "sourceWavyHairReused": false,
+  "sourceTailReused": false,
+  "sourceFinEarsReused": false,
+  "noExposedNeck": true,
+  "continuousLegLayers": true,
+  "tailDesign": "blue-grey smooth porpoise peduncle and horizontal flukes"
+}

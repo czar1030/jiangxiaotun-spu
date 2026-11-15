@@ -1,0 +1,20 @@
+[
+  {"question":"武汉敢为人先有什么历史故事？","answer":"可以从红楼、首义广场、首义公园和楚望台遗址公园了解武昌首义历史。","expected":["xinhai-north","shouyi-square","shouyi-park","chuwangtai"]},
+  {"question":"武汉的龟蛇锁江是什么？","answer":"龟山与蛇山隔江相望，武汉长江大桥连接两岸，龟山电视塔也是天际线地标。","expected":["snake-hill","yangtze-bridge","guishan-tower"]},
+  {"question":"武汉有哪些适合下雨天的博物馆？","answer":"可选择湖北省博物馆、武汉博物馆和张之洞与武汉博物馆，三者各有侧重。","expected":["hubei-museum","wuhan-museum","zhang-museum"]},
+  {"question":"武汉美术馆有哪些馆区？","answer":"可了解武汉美术馆（汉口馆）和武汉美术馆（琴台馆），另有湖北美术馆。","expected":["wuhan-art-museum","qintai-art-museum","hubei-art-museum"]},
+  {"question":"带孩子去哪个科技馆？","answer":"武汉科学技术馆在汉口；湖北省科技馆位于光谷，两馆不同。光谷空轨也可作为科技体验备选。","expected":["science-museum","hubei-science-museum","guanggu-skyrail"]},
+  {"question":"江汉路附近怎么坐轮渡？","answer":"从武汉关码头与中华路码头之间的普通轮渡了解跨江体验，具体班次出发前核实。","expected":["wuhanguan-pier","zhonghualu-pier"]},
+  {"question":"轮渡、两江游船和知音号一样吗？","answer":"武汉轮渡偏通勤；武汉两江游览侧重江景观光；知音号是沉浸式演艺体验。","expected":["wuhan-ferry","liangjiang-cruise","zhiyin-ship"]},
+  {"question":"去哪里体验武汉过早和宵夜？","answer":"可按住宿选择山海关路、水塔街或万松园美食街，不必为一顿饭来回跨江。","expected":["shanhaiguan-road","shuita-street","wansongyuan"]},
+  {"question":"武汉过早有哪些经典？","answer":"热干面、三鲜豆皮、面窝、糊汤粉和糯米包油条是常见选择。","expected":["reganmian","doupi","mianwo","hutangfen","nuomi-youtiao"]},
+  {"question":"正餐有哪些湖北风味？","answer":"可以了解排骨藕汤、武昌鱼、油焖大虾、黄陂三鲜与藕带，按人数和口味搭配。","expected":["lotus-soup","wuchang-fish","youmen-prawn","huangpi-sanxian","lotus-stem"]},
+  {"question":"老汉口历史街区怎么逛？","answer":"可串联黎黄陂路、巴公房子、青岛路和平和打包厂。","expected":["lihuangpi","bagong-house","qingdao-road","pinghe"]},
+  {"question":"宋庆龄在武汉有什么故事？","answer":"可以先了解宋庆龄的经历，再参观宋庆龄汉口旧居纪念馆；肖像和故居是不同图文条目。","expected":["soong-ching-ling","soong-house"]},
+  {"question":"武汉与近代工业有哪些联系？","answer":"可了解张之洞的经历，并参观张之洞与武汉博物馆；詹天佑与武汉詹天佑故居也有独立条目。","expected":["zhang-zhidong","zhang-museum","zhan-tianyou","zhan-house"]},
+  {"question":"武汉二七历史去哪里看？","answer":"武汉二七纪念馆可了解京汉铁路工人大罢工；八七会议会址纪念馆展示另一段重要历史。","expected":["erqi-memorial","august-seven"]},
+  {"question":"武汉有哪些特色演出？","answer":"可了解汉秀剧场的水舞台演艺，以及知音号的沉浸式演出，票务以项目方为准。","expected":["han-show","zhiyin-ship"]},
+  {"question":"黄陂的木兰景区怎么选？","answer":"木兰山、木兰天池、木兰草原与木兰云雾山各有特色，春季云雾山可关注杜鹃花期。","expected":["mulan-mountain","mulan-tianchi","mulan-grassland","mulan-yunwu"]},
+  {"question":"怎么了解武汉的城市格局？","answer":"可参观武汉规划展示馆，再结合武汉博物馆认识城市发展。","expected":["wuhan-planning","wuhan-museum"]},
+  {"question":"东湖分景区如何选择？","answer":"听涛景区、东湖磨山、东湖落雁景区和马鞍山森林公园各有风景，按体力择一慢游。","expected":["east-lake-tingtao","east-lake-moshan","east-lake-luoyan","east-lake-chuidi"]}
+]

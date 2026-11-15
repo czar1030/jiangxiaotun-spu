@@ -1,0 +1,56 @@
+{
+  "generation": "User-authorized imagegen fallback CLI, gpt-image-2",
+  "orientation": "Both sources face right in three-quarter view; red is mirrored in the scene",
+  "shared_source_bounds": [
+    139,
+    26,
+    998,
+    1355
+  ],
+  "shared_scale": 1.0458991723100075,
+  "poses": {
+    "blue": {
+      "pose": "challenge",
+      "size": [
+        1280,
+        1536
+      ],
+      "scale": 1.0458991723100075,
+      "offset": [
+        44,
+        42
+      ],
+      "source": "output/imagegen/saig-challenge-keyed-v7.png",
+      "prompt": "output/imagegen/saig-challenge-prompt-v7.txt",
+      "blink_prompt": "output/imagegen/saig-challenge-blink-prompt-v7.txt",
+      "asset": "commander-blue-v7.webp",
+      "blink_asset": "commander-blue-blink-v7.webp",
+      "blink_difference_bbox": [
+        582,
+        457,
+        946,
+        632
+      ],
+      "sha256": "9f37ffc53abe46f112ffa614f103a4a18cda3ed319362c54fc81ca2deff9a734"
+    },
+    "red": {
+      "pose": "folded",
+      "source": "output/imagegen/saig-folded-keyed-v6.png",
+      "prompt": "output/imagegen/saig-folded-prompt-v6.txt",
+      "blink_prompt": "output/imagegen/saig-folded-blink-prompt-v6.txt",
+      "asset": "commander-red-v6.webp",
+      "blink_asset": "commander-red-blink-v6.webp",
+      "blink_difference_bbox": [
+        481,
+        455,
+        850,
+        627
+      ],
+      "sha256": "3dcbaa211fef51fb026f185207cd5c018e266815567eec8ade34637d7d1ba710",
+      "size": [
+        1024,
+        1536
+      ]
+    }
+  }
+}

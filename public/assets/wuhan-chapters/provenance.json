@@ -1,0 +1,49 @@
+{
+  "retrievedAt": "2026-11-03",
+  "assets": [
+    {
+      "file": "wuhan-medics.webp",
+      "originalUrl": "https://www.xinhuanet.com/politics/2021-01/06/1126952445_16099187127061n.jpeg",
+      "sourceUrl": "https://www.xinhuanet.com/politics/2021-01/06/c_1126952445.htm",
+      "caption": "2020年2月4日，医护人员走向武汉火神山医院病房",
+      "author": "新华社记者 肖艺九",
+      "rights": "原站摄影或企业展示素材，保留出处；未确认开放许可",
+      "sha256": "86094425f2407390256c73e9785f849e61932d3d66a484306bc52dcd8ea59b01",
+      "width": 1000,
+      "height": 1296
+    },
+    {
+      "file": "optics-campus.webp",
+      "originalUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/ggxw_68629/202611/W020261102347433085841_ORIGIN.jpg",
+      "sourceUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/ggxw_68629/202611/t20261102_2872022.shtml",
+      "caption": "光迅科技高端光电器件产业基地",
+      "author": "东湖高新区政务网",
+      "rights": "原站摄影或企业展示素材，保留出处；未确认开放许可",
+      "sha256": "3cfb11b0b0c5fc9f3a2feb28f92be2c48a81c7d27bd8a8fa3d40229d47b83096",
+      "width": 1080,
+      "height": 809
+    },
+    {
+      "file": "ymtc-campus.webp",
+      "originalUrl": "https://www.ymtc.com/cn/resources/image/20220523/33cf9600d9fcca344ec3f3586c05fde2.jpg",
+      "sourceUrl": "https://www.ymtc.com/cn/intro.html",
+      "caption": "长江存储官网企业简介配图",
+      "author": "长江存储",
+      "rights": "企业官方展示素材，未确认开放许可，保留出处",
+      "sha256": "2a2256d6f27d630459eb393c75b20b0555b6fb402659902218ebe4f986413669",
+      "width": 1400,
+      "height": 510
+    },
+    {
+      "file": "ymtc-detail.webp",
+      "originalUrl": "https://www.ymtc.com/cn/1ca/image/20210816/4a89eeed449d79cd8df254d8ba35338f.jpg",
+      "sourceUrl": "https://www.ymtc.com/cn/intro.html",
+      "caption": "长江存储官网企业简介配图",
+      "author": "长江存储",
+      "rights": "企业官方展示素材，未确认开放许可，保留出处",
+      "sha256": "b6e930462738cd6bac0011e41b155bd04536e80733c1f9fac3086194c77bd6eb",
+      "width": 960,
+      "height": 730
+    }
+  ]
+}

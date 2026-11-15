@@ -1,0 +1,430 @@
+{
+  "version": 3,
+  "technique": "complete drawn cels; no limb deformation or pose crossfade",
+  "teams": {
+    "blue": {
+      "file": "commander-blue-entry-cels-v3.webp",
+      "sha256": "55fd864e4db72a945ecef9d3a092237fbc29b677c67f0b5d8cc8d745c7e00b95",
+      "cellWidth": 427,
+      "cellHeight": 512,
+      "columns": 4,
+      "rows": 4,
+      "count": 15,
+      "walkFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "arrivalFrames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "finalFrame": 14,
+      "registration": [
+        {
+          "sourceBounds": [
+            12,
+            54,
+            256,
+            475
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            85,
+            -35
+          ]
+        },
+        {
+          "sourceBounds": [
+            7,
+            54,
+            253,
+            476
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            92,
+            -36
+          ]
+        },
+        {
+          "sourceBounds": [
+            2,
+            54,
+            245,
+            480
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            101,
+            -41
+          ]
+        },
+        {
+          "sourceBounds": [
+            18,
+            42,
+            469,
+            732
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            57,
+            -5
+          ]
+        },
+        {
+          "sourceBounds": [
+            16,
+            42,
+            477,
+            732
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            69,
+            -5
+          ]
+        },
+        {
+          "sourceBounds": [
+            23,
+            24,
+            512,
+            707
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            52,
+            12
+          ]
+        },
+        {
+          "sourceBounds": [
+            24,
+            22,
+            474,
+            719
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            57,
+            4
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            0,
+            245,
+            414
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            111,
+            32
+          ]
+        },
+        {
+          "sourceBounds": [
+            93,
+            14,
+            436,
+            503
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -36,
+            9
+          ]
+        },
+        {
+          "sourceBounds": [
+            70,
+            14,
+            396,
+            504
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            2,
+            8
+          ]
+        },
+        {
+          "sourceBounds": [
+            29,
+            12,
+            387,
+            506
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            21,
+            6
+          ]
+        },
+        {
+          "sourceBounds": [
+            89,
+            5,
+            481,
+            491
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -56,
+            20
+          ]
+        },
+        {
+          "sourceBounds": [
+            42,
+            7,
+            457,
+            492
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -25,
+            19
+          ]
+        },
+        {
+          "sourceBounds": [
+            28,
+            7,
+            442,
+            492
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -7,
+            19
+          ]
+        }
+      ]
+    },
+    "red": {
+      "file": "commander-red-entry-cels-v3.webp",
+      "sha256": "43d10001f959db37acf79c692cdfffc7b8f26df71bf179da83ea68c534ede450",
+      "cellWidth": 341,
+      "cellHeight": 512,
+      "columns": 4,
+      "rows": 4,
+      "count": 15,
+      "walkFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "arrivalFrames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "finalFrame": 14,
+      "registration": [
+        {
+          "sourceBounds": [
+            12,
+            54,
+            256,
+            475
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            30,
+            -34
+          ]
+        },
+        {
+          "sourceBounds": [
+            7,
+            54,
+            253,
+            476
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            37,
+            -35
+          ]
+        },
+        {
+          "sourceBounds": [
+            2,
+            54,
+            245,
+            480
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            46,
+            -39
+          ]
+        },
+        {
+          "sourceBounds": [
+            18,
+            42,
+            469,
+            732
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            2,
+            -3
+          ]
+        },
+        {
+          "sourceBounds": [
+            16,
+            42,
+            477,
+            732
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            14,
+            -3
+          ]
+        },
+        {
+          "sourceBounds": [
+            23,
+            24,
+            512,
+            707
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            -3,
+            13
+          ]
+        },
+        {
+          "sourceBounds": [
+            24,
+            22,
+            474,
+            719
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            0,
+            245,
+            414
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            56,
+            33
+          ]
+        },
+        {
+          "sourceBounds": [
+            10,
+            92,
+            341,
+            713
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            49,
+            -35
+          ]
+        },
+        {
+          "sourceBounds": [
+            29,
+            92,
+            340,
+            712
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            56,
+            -34
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            92,
+            322,
+            716
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            70,
+            -37
+          ]
+        },
+        {
+          "sourceBounds": [
+            10,
+            36,
+            341,
+            676
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            56,
+            -8
+          ]
+        },
+        {
+          "sourceBounds": [
+            8,
+            37,
+            342,
+            676
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            56,
+            -8
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            36,
+            326,
+            676
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            67,
+            -8
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "reviewedAt": "2026-10-29",
+  "assets": [
+    {
+      "file": "founder-team.webp",
+      "source": "https://www.wuhan.gov.cn/sy/whyw/202605/W020260512301684908497_ORIGIN.png",
+      "article": "https://www.wuhan.gov.cn/sy/whyw/202605/t20260512_2763212.shtml",
+      "caption": "罗弼文（中）和团队小伙伴",
+      "processing": "Resized encoding only; no face alterations",
+      "sha256": "56b0a15907facd38b8437337d11b775e69d7cf66f8ef32acbab6c3d65b56de6a"
+    },
+    {
+      "file": "markyin-sword.webp",
+      "source": "https://shuming-official-file.markyin.com/static/officialweb/v2/card-level.png",
+      "page": "https://www.markyin.com/",
+      "processing": "Crop official product art, preserve alpha and lettering: (0, 355, 658, 1232); uniform resize",
+      "sha256": "01226aa9be976de73021b0a06c001f5ca7577b7525048dc3dd31bc0191dd3894"
+    },
+    {
+      "file": "markyin-jade.webp",
+      "source": "https://shuming-official-file.markyin.com/static/officialweb/v2/card-level.png",
+      "page": "https://www.markyin.com/",
+      "processing": "Crop official product art, preserve alpha and lettering: (1283, 482, 1938, 1349); uniform resize",
+      "sha256": "67c9b4118857109203936ad8cdc97d1dd071893d9fd6bea3d6e6c0c188530286"
+    },
+    {
+      "file": "card-rotate.mp4",
+      "source": "https://shuming-official-file.markyin.com/static/officialweb/v2/card-rotate-video.mp4",
+      "page": "https://www.markyin.com/",
+      "processing": "Unmodified official product video",
+      "sha256": "d70e73ad5bc5df62ba8b454f644897ed6f23807665e9abbba8152e29c8ebd8f5"
+    },
+    {
+      "file": "card-rotate-poster.webp",
+      "source": "https://shuming-official-file.markyin.com/static/officialweb/v2/card-rotate-video.mp4",
+      "page": "https://www.markyin.com/",
+      "processing": "Frame at 1.2s from official product video; WebP encoding",
+      "sha256": "f306bfcd2fdadeb851748fac7a7fdf97f6f3fbb701872c4229da941ddc01e012"
+    },
+    {
+      "file": "mao-memorial.webp",
+      "source": "https://cpc.people.com.cn/img/2011dsrw_mzd_fm/images/content_01.jpg",
+      "page": "https://cpc.people.com.cn/GB/69112/70190/index.html",
+      "caption": "Portrait composition from the People’s Daily Mao Zedong memorial website; not a photograph of the 1957 speech.",
+      "processing": "WebP encoding; website applies monochrome blue toning and edge fades. No facial alterations.",
+      "sha256": "48c65befbcf00e8135b4cc3d1678d8bff277e9ec164c26f1d36c4c07adb1aeb5"
+    }
+  ],
+  "youthQuotation": {
+    "original": "你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。希望寄托在你们身上。",
+    "attribution": "毛泽东，在莫斯科大学的讲话，1957年11月17日；收入《毛泽东文集》第七卷。",
+    "note": "The SPU / AI invitation is original community copy, separate from the historical quotation."
+  }
+}

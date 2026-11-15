@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="ai-plate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#497b8f" stop-opacity=".27"/><stop offset="1" stop-color="#152f43" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="ai-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#accfc9" stop-opacity=".55"/><stop offset=".5" stop-color="#80b1c7" stop-opacity=".17"/><stop offset="1" stop-color="#c9caa2" stop-opacity=".35"/></linearGradient>
+    <radialGradient id="ai-glow"><stop stop-color="#74b7d9" stop-opacity=".15"/><stop offset="1" stop-color="#74b7d9" stop-opacity="0"/></radialGradient>
+    <path id="ai-link" d="M799 142H980Q996 142 996 158V229Q996 245 1012 245H1017"/>
+  </defs>
+  <style>@media(prefers-reduced-motion:reduce){.ai-moving-signal{display:none}}</style>
+
+  <!-- A human, an intelligence core, and a completed work: one quiet story. -->
+  <g transform="translate(510 108)">
+    <rect width="289" height="68" rx="12" fill="url(#ai-plate)" stroke="#9ec4c5" stroke-opacity=".17"/>
+    <path d="M14 0H46M243 68H275" stroke="#d1c79a" stroke-opacity=".4"/>
+    <g transform="translate(24 17)" stroke="#b1d9cf" stroke-opacity=".62" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="14" cy="8" r="6"/><path d="M3 32V27C3 15 25 15 25 27V32M8 32H20"/>
+    </g>
+    <g stroke="#97c9cf" stroke-opacity=".34" stroke-width="1.2" stroke-linecap="round"><path d="M67 34H108M102 30L108 34L102 38M177 34H218M212 30L218 34L212 38"/></g>
+    <g transform="translate(126 16)" stroke="#bdd7bc" stroke-opacity=".68" stroke-linejoin="round">
+      <rect width="36" height="36" rx="9" fill="#91cabd" fill-opacity=".05"/>
+      <path d="M18 7L21 15L29 18L21 21L18 29L15 21L7 18L15 15Z" fill="#b3dccc" fill-opacity=".14"/>
+    </g>
+    <g transform="translate(237 17)" stroke="#abd5d3" stroke-opacity=".6" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 1H18L26 9V33H0ZM18 1V9H26M6 14H17M6 19H13M12 26L16 30L23 22"/>
+    </g>
+  </g>
+
+  <!-- A single data route, kept above the character silhouettes. -->
+  <use href="#ai-link" stroke="#94bdcc" stroke-opacity=".23" stroke-width="1.2"/>
+  <circle class="ai-moving-signal" r="2" fill="#bcdfd8" opacity=".65"><animateMotion dur="11s" repeatCount="indefinite"><mpath href="#ai-link"/></animateMotion></circle>
+
+  <!-- Etched processor: pins, ceramic frame, and a gently lit core. -->
+  <g transform="translate(1017 194)">
+    <ellipse cx="48" cy="51" rx="109" ry="117" fill="url(#ai-glow)"/>
+    <g stroke="#94c0c9" stroke-opacity=".45" stroke-width="2" stroke-linecap="round">
+      <path d="M23 0V-10M39 0V-10M55 0V-10M71 0V-10M23 102V112M39 102V112M55 102V112M71 102V112M0 27H-10M0 43H-10M0 59H-10M0 75H-10M96 27H106M96 43H106M96 59H106M96 75H106"/>
+    </g>
+    <rect width="96" height="102" rx="14" fill="url(#ai-plate)" stroke="url(#ai-metal)" stroke-width="1.5"/>
+    <rect x="9" y="9" width="78" height="84" rx="9" stroke="#a0cbc6" stroke-opacity=".19"/>
+    <rect x="22" y="24" width="52" height="54" rx="7" fill="#467d87" fill-opacity=".17" stroke="#aaccc2" stroke-opacity=".48"/>
+    <text x="48" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="26" letter-spacing="2" fill="#c2dcd0" fill-opacity=".77">AI</text>
+    <path d="M15 18V15H25M81 84V87H71" stroke="#d0c69b" stroke-opacity=".54" stroke-width="1.3"/>
+    <circle cx="78" cy="18" r="1.8" fill="#bce6cf" fill-opacity=".65"/>
+  </g>
+
+  <!-- Shared knowledge: a document becomes a small, organized neural graph. -->
+  <g transform="translate(255 598)">
+    <rect width="185" height="65" rx="10" fill="url(#ai-plate)" stroke="#9dc7c0" stroke-opacity=".16"/>
+    <g transform="translate(16 15)" stroke="#b2d1c3" stroke-opacity=".46" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M3 3H24L30 9V34H3ZM24 3V9H30M8 14H23M8 20H23M8 26H18"/>
+      <path d="M-1 8H-3V38H23" stroke-opacity=".25"/>
+    </g>
+    <path d="M59 32H82M77 28L82 32L77 36" stroke="#8ebdcb" stroke-opacity=".4" stroke-width="1.2" stroke-linecap="round"/>
+    <g transform="translate(100 15)" stroke="#9bc5cf" stroke-opacity=".42" stroke-width="1.1">
+      <path d="M5 17L24 3L45 17L64 3M5 17L24 32L45 17L64 32M24 3V32M64 3V32"/>
+      <g fill="#163849" stroke="#b0d7d0" stroke-opacity=".64"><circle cx="5" cy="17" r="3.2"/><circle cx="24" cy="3" r="3.2"/><circle cx="24" cy="32" r="3.2"/><circle cx="45" cy="17" r="3.2"/><circle cx="64" cy="3" r="3.2"/><circle cx="64" cy="32" r="3.2"/></g>
+    </g>
+  </g>
+</svg>

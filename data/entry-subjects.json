@@ -1,0 +1,211 @@
+[
+  {
+    "id": "jiangxinyuan",
+    "name": "汉阳江欣苑社区非遗展示中心",
+    "area": "汉阳",
+    "category": "景点",
+    "kind": "place",
+    "tags": [
+      "历史"
+    ],
+    "aliases": [
+      "江欣苑社区非遗展示中心",
+      "江欣苑非遗展示中心",
+      "江欣苑社区",
+      "江欣苑非遗传承园",
+      "汉阳江欣苑",
+      "Jiangxinyuan Intangible Heritage Centre"
+    ],
+    "description": "江欣苑社区的非遗展示与传承空间，可了解汉绣、汉阳高龙等传统技艺；参访方式请提前确认。",
+    "imageCaption": "江欣苑社区 · 湖北美术学院调研汉绣工作室实景，非展馆外观。",
+    "imageType": "实景照片",
+    "factUrl": "https://www.hifa.edu.cn/info/1029/29853.htm",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "湖北美术学院调研组实地考察江欣苑社区汉绣、黄梅挑花非遗工作室及社区非遗博物馆。社区以非遗保护与传承连接居民生活。",
+    "relatedIds": [
+      "hanxiu-museum",
+      "gaolong-museum"
+    ]
+  },
+  {
+    "id": "hanxiu-museum",
+    "name": "武汉汉绣博物馆",
+    "area": "汉阳",
+    "category": "景点",
+    "kind": "place",
+    "tags": [
+      "历史"
+    ],
+    "aliases": [
+      "汉绣博物馆",
+      "Wuhan Han Embroidery Museum"
+    ],
+    "description": "江欣苑非遗传承空间中的汉绣专题展示，可从绣品与传统纹样了解武汉刺绣文化。",
+    "imageCaption": "武汉汉绣博物馆 · 馆内汉绣展示实景。",
+    "imageType": "实景照片",
+    "factUrl": "https://hanyang.hmltec.com/index.php?c=show&id=16",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "汉阳文旅发布汉绣博物馆介绍及馆内展陈照片。旅游手册介绍其位于江欣苑非遗展示空间，收藏汉绣及相关藏品。",
+    "relatedIds": [
+      "jiangxinyuan"
+    ]
+  },
+  {
+    "id": "gaolong-museum",
+    "name": "高龙博物馆",
+    "area": "汉阳",
+    "category": "景点",
+    "kind": "place",
+    "tags": [
+      "历史"
+    ],
+    "aliases": [
+      "汉阳高龙博物馆",
+      "武汉高龙博物馆",
+      "Gaolong Museum"
+    ],
+    "description": "以汉阳高龙的历史、扎制和表演文化为主题，结合江欣苑社区非遗传承了解地方民俗。",
+    "imageCaption": "汉阳高龙表演实景 · 对应高龙民俗主题，非高龙博物馆馆舍照片。",
+    "imageType": "民俗表演实景",
+    "factUrl": "https://news.hubeidaily.net/mobile/c_2003148.html",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "湖北日报“解码武汉江欣苑文化现象”报道江欣苑非遗文化及高龙表演；旅游手册介绍高龙博物馆展示高龙文化与制作、绝技。",
+    "relatedIds": [
+      "jiangxinyuan"
+    ]
+  },
+  {
+    "id": "optics-innovation",
+    "name": "光谷创新天地",
+    "area": "光谷",
+    "category": "景点",
+    "kind": "place",
+    "tags": [],
+    "aliases": [
+      "武汉光谷创新天地",
+      "创新天地商业公园",
+      "KIC PARK",
+      "Optics Valley Innovation Tiandi"
+    ],
+    "description": "集商业、办公与公园空间于一体的光谷城市社区，数命SPU社区资料所述两处布局之一。",
+    "imageCaption": "光谷创新天地商业公园 · 2025年建设阶段航拍实景，非SPU内部设施。",
+    "imageType": "建设阶段实景",
+    "factUrl": "https://sw.wuhan.gov.cn/xwdt/mtbd/202504/t20250406_2562754.shtml",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "武汉市商务局2025年报道介绍光谷创新天地商业公园及建设进展，项目邻近地铁11号线。所附为当时建设实景；不据此判断SPU设施是否开放。",
+    "relatedIds": [
+      "spu-community"
+    ]
+  },
+  {
+    "id": "bee-museum",
+    "name": "蜜蜂探索馆",
+    "area": "江夏",
+    "category": "景点",
+    "kind": "place",
+    "tags": [],
+    "aliases": [
+      "江夏蜜蜂探索馆",
+      "蜜蜂探索馆（武汉市蜂之巢蜜蜂博物馆）",
+      "武汉市蜂之巢蜜蜂博物馆",
+      "Bee Exploration Museum"
+    ],
+    "description": "以蜜蜂、蜂产品与生态知识为主题的科普空间，适合结合兴趣了解亲子研学；活动和参观需核实。",
+    "imageCaption": "江夏蜜蜂探索馆 · 《幸福江夏行》报道中的馆内科普墙画面。",
+    "imageType": "馆内报道画面",
+    "factUrl": "https://v.qq.com/x/page/n3361m6rapl.html",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "《幸福江夏行——蜜蜂探索馆》展示馆内蜂巢造型科普墙；旅游手册科普游条目介绍蜜蜂与蜂蜜知识及体验内容，不代表当日活动和营业安排。",
+    "relatedIds": []
+  },
+  {
+    "id": "lotus-factory",
+    "name": "路特斯全球智能工厂",
+    "area": "武汉经开区",
+    "category": "景点",
+    "kind": "place",
+    "tags": [],
+    "aliases": [
+      "武汉路特斯全球智能工厂",
+      "路特斯智能工厂",
+      "Lotus Global Smart Factory"
+    ],
+    "description": "武汉汽车制造与智能生产的工业地标，可了解制造业发展；工业参访不能等同普通景区自由进入。",
+    "imageCaption": "路特斯全球智能工厂 · 厂区入口实景，图片来源：湖北日报。",
+    "imageType": "实景照片",
+    "factUrl": "https://news.hubeidaily.net/pc/913600.html",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "湖北日报2022年介绍武汉路特斯全球智能工厂的海绵城市设计与雨水处理；旅游手册将其列为工业科普相关点位。参访及预约另行确认。",
+    "relatedIds": []
+  },
+  {
+    "id": "zhiminli",
+    "name": "江岸智民里",
+    "area": "江岸",
+    "category": "景点",
+    "kind": "place",
+    "tags": [],
+    "aliases": [
+      "智民里",
+      "武汉江岸智民里",
+      "武汉智民里",
+      "Zhiminli"
+    ],
+    "description": "数命SPU社区资料所述布局地之一，以老城街区连接工作、协作与日常生活；具体参访需向官方确认。",
+    "imageCaption": "江岸智民里 · 用户提供《数命SPU社区说明》附实拍图，不代表当前设施开放状态。",
+    "imageType": "实景照片",
+    "factUrl": "/materials/%E6%95%B0%E5%91%BDSPU%E7%A4%BE%E5%8C%BA%E8%AF%B4%E6%98%8E.docx",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "社区说明确认已在湖北武汉江岸智民里与光谷创新天地布局；共享工坊、AI场景展示及文旅体验包含规划内容。",
+    "relatedIds": [
+      "spu-community"
+    ]
+  },
+  {
+    "id": "spu-community",
+    "name": "数命SPU社区",
+    "area": "武汉 · 江岸 / 光谷",
+    "category": "景点",
+    "kind": "place",
+    "tags": [],
+    "aliases": [
+      "数命 SPU 社区",
+      "SPU社区",
+      "数命SPU·江岸社区",
+      "Shuming SPU Community"
+    ],
+    "description": "面向AI开发者、创业者及希望学习使用AI的人群，围绕真实需求与项目协作连接学习和交付。",
+    "imageCaption": "数命SPU社区 · 原始说明中的智民里设计图，非建成实景。",
+    "imageType": "规划设计图",
+    "factUrl": "/materials/%E6%95%B0%E5%91%BDSPU%E7%A4%BE%E5%8C%BA%E8%AF%B4%E6%98%8E.docx",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "由数命科技（武汉）有限公司建设运营，在江岸智民里、光谷创新天地布局。AI工坊与智能体体验区等属于规划内容；不能据此声称已经开放。",
+    "relatedIds": [
+      "zhiminli",
+      "optics-innovation"
+    ]
+  },
+  {
+    "id": "saig",
+    "name": "SAIG数命SPU国际AI大赛",
+    "area": "武汉 / 线上",
+    "category": "景点",
+    "kind": "event",
+    "tags": [],
+    "aliases": [
+      "SAIG",
+      "SAIG国际AI大赛",
+      "SAIG 数命SPU国际AI大赛",
+      "SAIG International AI Competition"
+    ],
+    "description": "由数命SPU社区发起的AI赛事，以真实需求检验人与AI协作及成果交付；报名要求以官网为准。",
+    "imageCaption": "SAIG · 根据用户提供赛事说明整理的功能示意图，非赛事现场照片。",
+    "imageType": "赛事资料示意图",
+    "factUrl": "https://www.dlife.love",
+    "factLabel": "原始资料 / 图源报道",
+    "factExcerpt": "用户提供赛事说明：线上赛创造武汉数命SPU城市AI接待员，具备认识武汉、介绍SPU社区、武汉旅行规划、介绍SPU与SAIG四项功能。报名与赛程以官网为准。",
+    "relatedIds": [
+      "spu-community"
+    ]
+  }
+]

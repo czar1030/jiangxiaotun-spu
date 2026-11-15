@@ -1,0 +1,11 @@
+{
+  "lockedFacePixelsVerified": 16260,
+  "faceRedrawn": false,
+  "eyeContourRedrawn": false,
+  "bodyRescaled": false,
+  "allowedEdits": [
+    "hair",
+    "costume",
+    "iris/pupil colors"
+  ]
+}

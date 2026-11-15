@@ -1,0 +1,633 @@
+{
+  "version": 4,
+  "strideCycles": 2,
+  "technique": "collar-registered whole-drawing optical inbetweens; coupled head and shoulder response",
+  "teams": {
+    "blue": {
+      "file": "commander-blue-entry-cels-v4.webp",
+      "sha256": "428a45b5f37db3afa8140b332fdc528f9af4fbcbf86463cf920140e86f5e8740",
+      "cellWidth": 427,
+      "cellHeight": 512,
+      "columns": 8,
+      "rows": 8,
+      "count": 57,
+      "walkFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "arrivalFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "finalFrame": 56,
+      "registration": [
+        {
+          "sourceBounds": [
+            12,
+            54,
+            256,
+            475
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            85,
+            -35
+          ]
+        },
+        {
+          "sourceBounds": [
+            7,
+            54,
+            253,
+            476
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            92,
+            -36
+          ]
+        },
+        {
+          "sourceBounds": [
+            2,
+            54,
+            245,
+            480
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            101,
+            -41
+          ]
+        },
+        {
+          "sourceBounds": [
+            18,
+            42,
+            469,
+            732
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            57,
+            -5
+          ]
+        },
+        {
+          "sourceBounds": [
+            16,
+            42,
+            477,
+            732
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            69,
+            -5
+          ]
+        },
+        {
+          "sourceBounds": [
+            23,
+            24,
+            512,
+            707
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            52,
+            12
+          ]
+        },
+        {
+          "sourceBounds": [
+            24,
+            22,
+            474,
+            719
+          ],
+          "scale": 0.6695652173913044,
+          "offset": [
+            57,
+            4
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            0,
+            245,
+            414
+          ],
+          "scale": 1.096085409252669,
+          "offset": [
+            111,
+            32
+          ]
+        },
+        {
+          "sourceBounds": [
+            93,
+            14,
+            436,
+            503
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -36,
+            9
+          ]
+        },
+        {
+          "sourceBounds": [
+            70,
+            14,
+            396,
+            504
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            2,
+            8
+          ]
+        },
+        {
+          "sourceBounds": [
+            29,
+            12,
+            387,
+            506
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            21,
+            6
+          ]
+        },
+        {
+          "sourceBounds": [
+            89,
+            5,
+            481,
+            491
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -56,
+            20
+          ]
+        },
+        {
+          "sourceBounds": [
+            42,
+            7,
+            457,
+            492
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -25,
+            19
+          ]
+        },
+        {
+          "sourceBounds": [
+            28,
+            7,
+            442,
+            492
+          ],
+          "scale": 0.9476923076923077,
+          "offset": [
+            -7,
+            19
+          ]
+        }
+      ],
+      "collarRegistration": [
+        {
+          "collarOffset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "collarOffset": [
+            -2,
+            0
+          ],
+          "correlation": 0.9057
+        },
+        {
+          "collarOffset": [
+            1,
+            -5
+          ],
+          "correlation": 0.9113
+        },
+        {
+          "collarOffset": [
+            -2,
+            6
+          ],
+          "correlation": 0.9181
+        },
+        {
+          "collarOffset": [
+            -1,
+            6
+          ],
+          "correlation": 0.9506
+        },
+        {
+          "collarOffset": [
+            0,
+            13
+          ],
+          "correlation": 0.9198
+        },
+        {
+          "collarOffset": [
+            1,
+            4
+          ],
+          "correlation": 0.9484
+        },
+        {
+          "collarOffset": [
+            4,
+            -4
+          ],
+          "correlation": 0.8279
+        }
+      ],
+      "keyframeStride": 6
+    },
+    "red": {
+      "file": "commander-red-entry-cels-v4.webp",
+      "sha256": "4817876988d3ea768d7f89d6b8d971c1eee07a78d8c8725da2d8c4909863909d",
+      "cellWidth": 341,
+      "cellHeight": 512,
+      "columns": 8,
+      "rows": 8,
+      "count": 57,
+      "walkFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "arrivalFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "finalFrame": 56,
+      "registration": [
+        {
+          "sourceBounds": [
+            12,
+            54,
+            256,
+            475
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            30,
+            -34
+          ]
+        },
+        {
+          "sourceBounds": [
+            7,
+            54,
+            253,
+            476
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            37,
+            -35
+          ]
+        },
+        {
+          "sourceBounds": [
+            2,
+            54,
+            245,
+            480
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            46,
+            -39
+          ]
+        },
+        {
+          "sourceBounds": [
+            18,
+            42,
+            469,
+            732
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            2,
+            -3
+          ]
+        },
+        {
+          "sourceBounds": [
+            16,
+            42,
+            477,
+            732
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            14,
+            -3
+          ]
+        },
+        {
+          "sourceBounds": [
+            23,
+            24,
+            512,
+            707
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            -3,
+            13
+          ]
+        },
+        {
+          "sourceBounds": [
+            24,
+            22,
+            474,
+            719
+          ],
+          "scale": 0.667632850241546,
+          "offset": [
+            1,
+            5
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            0,
+            245,
+            414
+          ],
+          "scale": 1.0929221035982601,
+          "offset": [
+            56,
+            33
+          ]
+        },
+        {
+          "sourceBounds": [
+            10,
+            92,
+            341,
+            713
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            49,
+            -35
+          ]
+        },
+        {
+          "sourceBounds": [
+            29,
+            92,
+            340,
+            712
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            56,
+            -34
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            92,
+            322,
+            716
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            70,
+            -37
+          ]
+        },
+        {
+          "sourceBounds": [
+            10,
+            36,
+            341,
+            676
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            56,
+            -8
+          ]
+        },
+        {
+          "sourceBounds": [
+            8,
+            37,
+            342,
+            676
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            56,
+            -8
+          ]
+        },
+        {
+          "sourceBounds": [
+            0,
+            36,
+            326,
+            676
+          ],
+          "scale": 0.7294800738981262,
+          "offset": [
+            67,
+            -8
+          ]
+        }
+      ],
+      "collarRegistration": [
+        {
+          "collarOffset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "collarOffset": [
+            -2,
+            0
+          ],
+          "correlation": 0.9057
+        },
+        {
+          "collarOffset": [
+            1,
+            -5
+          ],
+          "correlation": 0.9113
+        },
+        {
+          "collarOffset": [
+            -2,
+            6
+          ],
+          "correlation": 0.9181
+        },
+        {
+          "collarOffset": [
+            -1,
+            6
+          ],
+          "correlation": 0.9506
+        },
+        {
+          "collarOffset": [
+            0,
+            13
+          ],
+          "correlation": 0.9198
+        },
+        {
+          "collarOffset": [
+            1,
+            4
+          ],
+          "correlation": 0.9484
+        },
+        {
+          "collarOffset": [
+            4,
+            -4
+          ],
+          "correlation": 0.8279
+        }
+      ],
+      "keyframeStride": 6
+    }
+  }
+}

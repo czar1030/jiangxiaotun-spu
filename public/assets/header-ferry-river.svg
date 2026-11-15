@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 104" fill="none">
+  <defs>
+    <linearGradient id="river" x1="12" y1="0" x2="510" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#60898b" stop-opacity="0"/><stop offset=".2" stop-color="#60898b" stop-opacity=".42"/><stop offset=".7" stop-color="#60898b" stop-opacity=".7"/><stop offset="1" stop-color="#60898b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="hull" x1="235" y1="58" x2="365" y2="77" gradientUnits="userSpaceOnUse"><stop stop-color="#6a9898" stop-opacity=".03"/><stop offset=".6" stop-color="#6a9898" stop-opacity=".16"/><stop offset="1" stop-color="#6a9898" stop-opacity=".04"/></linearGradient>
+    <linearGradient id="shore" x1="15" y1="52" x2="235" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#88a09a" stop-opacity="0"/><stop offset=".5" stop-color="#88a09a" stop-opacity=".16"/><stop offset="1" stop-color="#88a09a" stop-opacity="0"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#bfa670" stop-opacity=".15"/><stop offset="1" stop-color="#bfa670" stop-opacity=".025"/></radialGradient>
+  </defs>
+  <circle cx="337" cy="28" r="20" fill="url(#sun)"/>
+  <path d="M330 9A20 20 0 0 1 357 28" stroke="#ad965f" stroke-opacity=".45" stroke-width=".65"/>
+  <path d="M16 63C41 58 46 46 62 46C76 46 84 52 95 47C117 34 126 38 146 48C161 57 191 44 218 54L235 67H16Z" fill="url(#shore)"/>
+  <!-- The bridge stays on the far bank; the ferry has its own uninterrupted water. -->
+  <g stroke="#648784" stroke-linejoin="round" stroke-linecap="round" stroke-opacity=".48">
+    <path d="M35 61H215M38 64H214M49 61L58 54H190L204 61M59 54V64M190 54V64" stroke-width=".8"/>
+    <path d="M83 61V35H96V61M155 61V35H168V61M80 35H99M152 35H171M85 39H94M157 39H166M89 39V49M161 39V49" stroke-width=".9"/>
+    <path d="M61 54L72 61L83 54L95 61L107 54L119 61L131 54L143 61L155 54L168 61L180 54L190 61M86 64L82 73M94 64L98 73M158 64L154 73M166 64L170 73" stroke-width=".6"/>
+    <path d="M108 51Q130 46 150 50M31 69Q51 65 71 69M180 70Q198 65 219 68" stroke-width=".65" stroke-opacity=".5"/>
+  </g>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M239 62C268 66 317 65 370 58C364 66 356 74 340 75H264C253 74 245 69 239 62Z" fill="url(#hull)" stroke="#527e7e" stroke-opacity=".82" stroke-width="1.1"/>
+    <path d="M250 63L254 45H337L350 61M260 45V33H315Q322 34 326 44M256 49H339M264 37H317M279 33V25M279 25L292 28L279 30" stroke="#527e7e" stroke-opacity=".77" stroke-width=".95"/>
+    <path d="M257 52L256 59H267V52ZM273 52V59H284V52ZM290 52V59H301V52ZM307 52V59H318V52ZM324 52V59H338L334 52Z" stroke="#6b9290" stroke-opacity=".6" stroke-width=".75"/>
+    <path d="M267 38V42M277 38V42M287 38V42M297 38V42M307 38V42M250 67Q307 72 361 63" stroke="#af985f" stroke-opacity=".65" stroke-width=".75"/>
+    <path d="M265 71H337M345 64L349 67M254 48V44M341 50V47" stroke="#527e7e" stroke-opacity=".5" stroke-width=".6"/>
+  </g>
+  <g stroke-linecap="round">
+    <path d="M396 59C415 56 430 59 448 55S480 53 496 54M407 63Q434 59 458 60" stroke="#7a9790" stroke-opacity=".35" stroke-width=".7"/>
+    <path d="M418 55V44H425V54M429 54V39H437V54M444 53V47H452V53M467 51V42H472V52" stroke="#72918a" stroke-opacity=".32" stroke-width=".7"/>
+    <path d="M398 26Q405 24 409 28Q415 21 423 22M431 33Q435 31 439 34Q444 29 448 29" stroke="#6b9190" stroke-opacity=".45" stroke-width=".75"/>
+    <path d="M13 88C70 82 107 96 160 87S225 73 250 78C277 84 309 83 339 81C379 77 402 71 440 74S481 80 510 74M37 96C96 91 114 100 168 93S220 81 244 83M292 90C336 94 366 82 406 83S467 91 494 86" stroke="url(#river)" stroke-width=".9"/>
+    <path d="M192 85Q216 79 236 80M330 85C357 82 370 79 388 79M414 89Q434 91 454 89" stroke="#af985f" stroke-opacity=".55" stroke-width=".7"/>
+    <path d="M272 78H294M301 79H323M283 82H308" stroke="#648b88" stroke-opacity=".24" stroke-width=".7"/>
+  </g>
+</svg>
